@@ -1,0 +1,76 @@
+body{
+    background-image: url(imga.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 238, 4);
+    text-align: center;
+}
+
+li{
+    color:white;
+}
+
+a{
+    color: white;
+}
+
+img{
+    float: left;
+    /* float can used to move img right or left */
+    /* still dont get so search */
+}
+
+h5 > p{
+    color:white;
+    text-decoration: underline;
+    /* by this we can actually decorate it can be underline or line through */
+    line-height: 30px;
+    /* it can control the space between two lines */
+    text-align: center;
+    font-weight: bold;
+    /* it change the style into bold */
+}
+
+h5 > p:hover{
+    text-decoration: line-through;
+    /* line through make the line through the words */
+    font-size: 300%;
+    /* it can chANge the size of the text */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* it change the font of the text */
+    color: white;
+} 
+
+strong > p{
+    color: white;
+}
+
+strong > p:hover{
+    text-transform: uppercase;
+    /* it transform text into uppercase or lowercase */
+    background-color: rgb(170, 154, 134);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    border: 5px dashed rgb(0, 162, 255);
+    font-style: italic;
+    /* you can change font by it also */
+}
+
+h2 > p{
+    font-family: 'Open Sans', sans-serif;
+    /* copied this link for google fonts api */
+    color:white;
+}
+
+footer{
+    clear:both;
+    color:white;
+    text-align:center;
+}
+
+footer:hover{
+    border: 7px double rgb(190, 127, 144);
+    color: salmon;
+}

@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(180, 180, 180);
+}
+
+.col{
+    background-color: gray;
+    border: 3px solid black;
+}

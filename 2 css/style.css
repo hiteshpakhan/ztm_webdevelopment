@@ -1,0 +1,105 @@
+/*      selector {
+                property: value;
+        } */
+
+* {
+    text-align: right;
+}
+/* star is used to assign the hole html section if we comment further align text then you see that all the text ia moving towerds to the right sight  */
+/* for now only some part is in right because e assign it further */
+
+h3 {
+    color:darkblue !important;
+/* important meansw it will save the property permently it will not changed throught the program */
+}
+
+header{
+    text-align: center;
+}
+
+body {
+    background-image: url(img5.jpg);
+    /* if we have to assign background image then we can use these tag and in between the url() we have to put link of the image */
+    background-size: cover;
+    /* to fullfill the image in the baground we use here baground size cover */
+}
+
+h2,p{                                             
+    /* here h2 is a selector */
+    /* you can actually use more than one selectorat a time */
+    color: #ff0000;                          
+     /* here we assign the color red in by vs code*/
+    text-align: center;               
+    /* text align we can used to align the text */
+    border: 5px solid rgba(21, 0, 117, 0.5);   
+     /* 7px is the width of border , dashed/solid are the style of border , and yellow assign the color of border */
+    /* but hear we remove the color yellow and put rgb color rgb color have value of red green black */
+    /* if u want to have some opacity then use a after rgb and value of a is between 0 to 1 ex rgba(255, 176, 170, 0.4) */
+    cursor: pointer;
+}
+
+p{
+    color:pink;
+    text-align:center;
+}
+
+p{ 
+    color:rgb(255, 0, 149);
+    /* this color is given by the vs code */
+}
+
+li{
+    list-style: none;
+    /* it is used to denote style of the list by using none we removed the dotes that in front of the list items */
+    display: inline-block;
+    /* by using displaying incline-block now the list items are in the same line other than in the column */
+}
+
+.hitesh:last-child {
+/* last child is select the last element from the group */
+/* where as the first child select the first item fromthe group */
+    border: 3px dotted rgba(0, 117, 88, 0.5);
+}
+/* we created class hitesh to make group of same tags  */
+
+.pakhan {
+    color: darkgreen;
+}
+/* we created group hitesh pakhan from group hitesh to created group from group */
+
+#div_name1 :hover{
+/* hover is used to hover the element */
+    background-color: rgba(255, 252, 67, 0.2);
+}
+/* div is used to seloect the special group to asign */
+
+#div_name2 :hover{
+/* hover is used to hover the element */
+    background-color: rgba(0, 150, 0, 0.2);
+}
+/* you can use div more than one but it shoud be of different name */
+
+h1 p{                                             
+    background-color: rgba(240, 127, 62, 0.3);                          
+    text-align: center;               
+    cursor: pointer;
+}
+/* it is element space element tag now example it denote the p inside h1 it perform all task on the p tag */
+
+p > span{
+    color:rgb(112, 43, 43);
+
+}
+
+span:hover{
+    background: rgb(130, 130, 250);
+}
+
+h1 + p{
+    text-align: left;
+}
+/* it means selkect p that comes exactly after h1 element */
+
+
+
+

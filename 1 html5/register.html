@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register page</title>
+</head>
+<body>
+    <!-- <form method="GET">  -->
+        <!-- form use defolt method but it can leaked data so we have to  hide it by changing method -->
+        <!-- there are more attributes which we wil see further <div></div> <span></span> -->
+    <form method="POST">   
+        <!-- in each element you have touse name attribute for identify or call it in the future -->
+        first name: <input type="text" name="f_name"><br>
+        <!-- input type text create a blank text box  -->
+        last name: <input type="text" name="l_name"><br>
+        email: <input type="email" name="email" required><br>
+        <!-- type emailis specially for email -->
+        <!-- required is the most important attribute you cannot continue execution without fill required element -->
+        password: <input type="password" name="pass" min="5"><br>
+        <!-- min can restrict on thelength of text it should be minimum of that that no -->
+        birthday: <input type="date" name="birthday"><br>
+        <!-- you can use date for calender -->
+        gender: <br> 
+        <!-- radio create radio button -->
+        <input type="radio" name="gender" value="male">male<br>
+        <input type="radio" name="gender" value="female">female<br>
+        <input type="radio" name="gender" value="other">other<br>
+        pets:<br>
+        <!-- checkbox create checkbox -->
+        <input type="checkbox" name="cat">cat<br>
+        <input type="checkbox" name="dog">dog<br>
+        cars:
+        <!-- select is used to created dropdown list -->
+        <select name="cars">
+            <!-- in drop down list you hade to add value  -->
+            <option value="audi">audi</options>
+            <option value="bmw">bmw</option>
+        </select><br>
+        <hr>
+        <input type="submit" value="register">
+        <!-- type submit will create button for submit you can changed the name by giving value -->
+        <input type="reset"><br>
+        <!-- type reset will also create button for reset -->
+    </form><hr>
+    <a href="index.html">home</a>
+    <a href="PAGE 2.html">2</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

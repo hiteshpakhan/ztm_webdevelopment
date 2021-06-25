@@ -1,0 +1,67 @@
+/* we used the idea of flexbox in advanced css its a very easy to implement tool */
+/* best way to master flaxsbox is a game that flexboxfroggy.com  */
+
+body{
+    background-color: rgb(80, 77, 77);
+    /* margin: 0px; */
+    /* this will remove the default margin of the browser */
+}
+
+p{
+    color: rgb(30, 255, 0);
+    font-family: fantasy;
+    /* this will change the font */
+    font-size: 3rem;
+    /* it will change the size by the default text size multiply by 3 */
+    border-bottom: 3px solid pink;
+    /* this will give th the border but on the bottom only */
+    width:400px;
+    /* this will reduced the size of border bottom size */
+    text-align: center;
+    /* it will align the text to the center */
+    border-right: 3px solid pink;
+    /* you can make all the borders and also the specific border also */
+    box-shadow: 4px 4px 5px rgba(8, 8, 8, 0.356);
+    /* very important it can give the shadows to the item */
+    /* first 4px is give the shadow to the right */
+    /* socond 4px give the shadow to the bottom */
+    /* third 5px gives the shadow to all the sides */
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    /* here we assign the width and height to the image */
+    margin: 10px;
+    border-radius: 200px;
+    /* this will turn the image a curve at the corner */
+    transition: 0.8s;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.493);
+}
+
+img:hover{
+    transform:scale(1.2);
+}
+
+.container{
+    display: flex;
+    /* it will arringe forsfully the images in the single row */
+}
+
+hr{
+    width: 1300px; 
+    align-self: center;
+    border: 5px solid rgba(255, 238, 0, 0.459);
+    box-shadow:4px 4px 5px rgba(0, 0, 0, 0.589);
+}
+
+.box{
+    flex-wrap: wrap;
+    /* it will wrap items into multiple lines from top to bottom */
+    justify-content: center;
+    /* it will move items to center */
+}
+
+.box > img{
+    border-radius:15px; 
+}

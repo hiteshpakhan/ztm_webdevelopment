@@ -1,0 +1,58 @@
+/* font-family: 'Bebas Neue', cursive; */
+
+body,
+html{
+    width:100%;
+    height:100%;
+    font-family: 'montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+h1{
+    font-size: 3rem;
+    color: #64b5b5;
+    /* text-transform: uppercase; */
+}
+
+.buffer{
+    height: 10rem;
+}
+
+hr{
+    border-color: rgb(255, 0, 0);
+    border-width: 3px;
+    max-width: 65px;
+    /* border-radius: 20px; */
+}
+
+.btn{
+    /* to change the button propertyes default of the bootstrap */
+    font-weight:700;
+    border-radius: 300px;
+    text-transform: uppercase;
+
+}
+
+.btn-warning{
+    /* ti change the button color from yellow to orange type */
+    background-color: #f05f44;
+    border-color: #f05f44;
+
+}
+
+.btn-warning:hover{
+    background-color:#ff2600;
+    border-color: #ff2600;
+    border-width: 4px;
+}
+
+/* .ex-to-overide-the-bootstrap-property-in-own-css-file{
+    padding: 0.5rem 2rem;
+    top bottom 1rem padding right left 3rem
+    this is the comment in comment
+}
+*/

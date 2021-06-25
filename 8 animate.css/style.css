@@ -1,0 +1,12 @@
+body{
+    background-color:green;
+}
+
+h1{
+    text-align: center;
+    /* align-items: center; */
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 6rem;
+    color:gold;
+}
