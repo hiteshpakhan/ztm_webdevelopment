@@ -157,8 +157,8 @@ hr{
 .gree {
     grid-column-start: 1;
     grid-column-end:3;
-    /* it will the grid column 1 to 3 */
-    /* you can also assign the values by the grid-column: 1/3; like that */
+    /* it will start assign the space from 1 to 3 */
+    /* here's 1 means 0 so it will assign the space of 2 grid into 1 */
 }
 
 .gree {
@@ -172,6 +172,11 @@ hr{
 }
 
 .re {
+    /* grid-column: 1/3; */
+    /* you can also assign the values by the grid-column: 1/3; like that */
+}
+
+.re {
     background: #C655BE; /* Old browsers */
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
@@ -179,6 +184,12 @@ hr{
     background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
     background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+.yello {
+    grid-column: 1/-1;    
+    /* here the 1 means the 0 and -1 is the end  */
+    /* means it will assign/contain the full row */
 }
 
 .yello {
