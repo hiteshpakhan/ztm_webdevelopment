@@ -159,6 +159,14 @@ hr{
     grid-column-end:3;
     /* it will start assign the space from 1 to 3 */
     /* here's 1 means 0 so it will assign the space of 2 grid into 1 */
+    grid-row-start: 1;
+    grid-row-end:3;
+    /* asyou can see that we can also assign values by the row  */
+
+    /* here the main things in the grid system */
+    /* there are justify-self and align-self */
+    /* justify-self:end; */
+
 }
 
 .gree {
@@ -174,6 +182,8 @@ hr{
 .re {
     /* grid-column: 1/3; */
     /* you can also assign the values by the grid-column: 1/3; like that */
+    /* grid-row: 1/3; */
+    /* you can also assign the values by the grid-row: 1/3; like that */
 }
 
 .re {
@@ -200,6 +210,12 @@ hr{
     background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
     background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+.blu{
+    grid-column:span 2;
+    /* it says that span accroiss two grid */
+    /* means it will cover the two grid blocks */
 }
 
 .blu {
