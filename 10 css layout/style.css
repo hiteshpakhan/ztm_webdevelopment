@@ -51,18 +51,31 @@
     flex-wrap:wrap;
     
     width: 60vh;
-    background-color:#cf0404;
+    /* background-color:#cf0404; */
     justify-content:space-evenly;
 }
 
 .right_taskbar{
-    background-color:blue;
+    /* background-color:blue; */
     width: 20vh;
     display: flex;
     /* flex-wrap:wrap; */
     justify-content:space-evenly;
 }
 
+button{
+    height:4vh;
+    width:15vh;
+    font-size:3vh;
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+    border:none;
+}
 
 /***********************************************************************
  *  Red Background
@@ -106,11 +119,15 @@
     height:40vh;
     width:40vh;
     background-color:rgb(88, 88, 88);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
 }
 
 
 .boxes > img{
-    height: 30vh;
+    height: 35vh;
     width:30vh;
 }
 
