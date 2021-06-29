@@ -1,8 +1,21 @@
+/* VERY IMP TO REMOVE THE MARGIN AND PADDING LIKESTUF */
+body {
+margin: auto 0;
+/* we used margin 0 to remove the margin space that is default here */
+}
+
+.push{
+    margin-left: auto;
+    /* by this our li element will automatically push all because it has its automatic margin that it create to the very end  */
+}
+
 .zone {
-    padding:30px 50px;
-    margin:40px 60px;
+    /* padding:30px 50px;
+    margin:40px 60px; */
+    /* we remove the padding and margin for make the navgation bar at the top */
     cursor:pointer;
-    display:inline-block;
+    /* display:inline-block; */
+    /* we remove the inline block because it make the contents in the same column */
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -16,6 +29,31 @@
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+
+
+/* navagation bar */
+
+.main-nav{
+    display:flex;
+    list-style:none;
+    font-size:0.7em;
+    margin:0;
+    /* for removing the margins */
+}
+
+li{
+    padding:20px;
+    /* here we used the padding for giving the space between the li tags */
+}
+
+a{
+    color:#f5f5f6;
+    text-decoration:none;
+    /* we used text-decoration for remove the underline in the list items */
+}
+
+
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
