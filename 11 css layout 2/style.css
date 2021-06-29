@@ -5,6 +5,7 @@ margin: auto 0;
 }
 
 .push{
+    /* margin-left/margin-right/margin-top/margin-bottom are the very importent tools to used */
     margin-left: auto;
     /* by this our li element will automatically push all because it has its automatic margin that it create to the very end  */
 }
