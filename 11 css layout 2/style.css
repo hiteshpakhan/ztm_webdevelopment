@@ -2,6 +2,7 @@
 body {
 margin: auto 0;
 /* we used margin 0 to remove the margin space that is default here */
+font-family: Arial;
 }
 
 .push{
@@ -33,6 +34,13 @@ margin: auto 0;
 
 
 /* navagation bar */
+
+.sticky{
+    position: fixed;
+    top:0;
+    /* we successfully stick the nav bar to the top but it affect our width for that we have to used the width:100% */
+    width:100%;
+}
 
 .main-nav{
     display:flex;
@@ -79,6 +87,11 @@ a{
     height:50vh;
 }
 
+.cover{
+    width:30rem;
+    margin-top:2vh;
+}
+
 /* grid */
 
 .grid-wrapper{
@@ -122,6 +135,8 @@ footer{
 /***********************************************************************
  *  Red Background
  **********************************************************************/
+
+/* we remove this ret tag from the html page that means this red is no longer attached to the project  */
 .red{
     background: #C655BE; /* Old browsers */
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
