@@ -11,8 +11,8 @@ margin: auto 0;
 }
 
 .zone {
-    /* padding:30px 50px;
-    margin:40px 60px; */
+    /* padding:30px 50px; */
+    /* margin:40px 60px; */
     /* we remove the padding and margin for make the navgation bar at the top */
     cursor:pointer;
     /* display:inline-block; */
@@ -42,6 +42,18 @@ margin: auto 0;
     /* for removing the margins */
 }
 
+/* ****************************************************** */
+/* very imp this is the introduction to the @media querye */
+/* @media querye helps us to responciveness of the devices */
+
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size:0.6em;
+        padding:0;
+    }
+}
+
+
 li{
     padding:20px;
     /* here we used the padding for giving the space between the li tags */
@@ -52,6 +64,43 @@ a{
     text-decoration:none;
     /* we used text-decoration for remove the underline in the list items */
 }
+
+/* cover */
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* ********************************* */
+    /* this is the very imp introduction to the vh measure */
+    /* vh means view port height */
+    /* 1vh means 1% of the screen size according to the device and browser */
+    /* ********************************* */
+    height:50vh;
+}
+
+/* grid */
+
+.grid-wrapper{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(auto-fill, minmax(370px, 1fr));
+}
+
+.box>img{
+    width:100%;
+}
+.box{
+    background-color: #444;
+    padding:130px;
+    margin:20px;
+}
+
+footer{
+    text-align: center;
+}
+
+
 
 
 
