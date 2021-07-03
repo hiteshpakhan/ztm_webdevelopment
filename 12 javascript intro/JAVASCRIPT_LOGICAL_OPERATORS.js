@@ -5,3 +5,46 @@
 // &&
 // ||
 // !
+
+// OR ||
+name="hitesh";
+if (name === "billy" || name === "hitesh"){
+    alert("hi billy or hitesh");
+}
+// OR means any one or more than one conditions in the options are necessary to execute
+// it will give the alert message "hi billy or hitesh"
+
+
+
+// && AND
+var firstname="hitesh";
+var lastname="pakhan";
+if (firstname === "hitesh" && lastname === "pakhan"){
+    alert("hi hitesh pakhan");
+}
+// AND means all the conditions are necessory to execute
+// it will give the alert "hi hitesh pakhan"
+
+
+
+
+// NOT !
+var language="javascript";
+if( ! (language === "jagfgkjhgbv") ) {
+    alert("your not javascript");
+}
+// not means except that value anything can granted to execute
+// it will give the alert "your not javascript"
+
+// other examples:
+!false //true
+!true //false
+
+
+
+
+
+
+
+
+
