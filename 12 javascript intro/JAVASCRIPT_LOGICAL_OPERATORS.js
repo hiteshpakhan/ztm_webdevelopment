@@ -1,0 +1,7 @@
+
+// *
+// JAVASCRIPT LOGICAL OPERATORS
+// -----------------
+// &&
+// ||
+// !
