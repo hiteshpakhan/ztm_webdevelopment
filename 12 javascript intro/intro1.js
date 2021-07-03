@@ -106,6 +106,10 @@
 // STRING
 // you can create string by the doublequots ("") or the singlequots ('')
 
+// Semicolon ( ; )
+// in javascript the semicolon means the end of the expression
+// most of the cases you dont need it but you shoud used it sometimes it cause an !error! 
+
 // variable (var)
 // variable is used to store the valus in them
 // to create any variable you have to start with (var) keyword
@@ -114,6 +118,18 @@
 // the exception is a veriable can also start with the doller sign ($) or a underscore (_)
 // if you want to give two world name to the variable the best way is to use camel case
 // camel case is when you used the uppercase letter in your variable for example (yourName) here the n letter is the capatalised heance it is the camel case
+// example:
+var a = true;
+a;
+// op:-true
+// now it holds the value of an a variable as the boolian value true 
+// but it never fixed you can change the value any time if yu want
+var a=56;
+a="hello";
+a;
+// op:-"hello"
+// now you changed the value of a it is "hello" now
+
 
 // -------------
 alert()
@@ -187,5 +203,20 @@ true != true // false
 
 // Make the string: "HI There! It's sunny out" by using the + sign.
 "Hi There! " + "It\'s \"sunny\" out"
+
+
+// -------------
+// to convert any string into number
+// for example
+var first=prompt("enter first number");
+var second=prompt("enter second number");
+// the prompt() always read the value in the string if we want to add it we have to convert it into the integer noumber form
+var sum= Number(first) + Number(second);
+alert("the sum is:" + sum);
+// now it will give us the addition of these two numbers 
+
+
+
+
 
 
