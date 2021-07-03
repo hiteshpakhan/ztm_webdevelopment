@@ -106,7 +106,30 @@
 // STRING
 // you can create string by the doublequots ("") or the singlequots ('')
 
+// variable (var)
+// variable is used to store the valus in them
+// to create any variable you have to start with (var) keyword
+// you can name it that start with the string a to z letters and you can add number further if you want
+// and it cant start with the symboal
+// the exception is a veriable can also start with the doller sign ($) or a underscore (_)
+// if you want to give two world name to the variable the best way is to use camel case
+// camel case is when you used the uppercase letter in your variable for example (yourName) here the n letter is the capatalised heance it is the camel case
 
+// -------------
+alert()
+// aleart is used to pop up the message
+// for example if i type
+alert("hi there")
+// it will pop up an alert along with the message "hi there" 
+
+// -------------
+prompt()
+// prompt is used to pop up the message along with to take some input message value
+// for example if i type
+prompt("type your name")
+// then it will show you the message "type your name" along with it will show you a container in which you can send back a message value
+
+// -------------
 5 + "34" // "534"
 // here the 5 is an integer and 34 is a string 
 // when you add a integer with the string the javascript act like you want to add two strings
