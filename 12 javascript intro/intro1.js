@@ -3,6 +3,22 @@
 
 // IMP STUF:-
 
+// HOW TO LINK THE JAVASCRIPT FILE TO HTML
+// there are two ways to add javascript
+// step1
+// to add javascript file there is a html tag 
+inhtml:{      <script src="script.js"></script>     }
+// hear the (script.js) is our name of javascript file
+// step2
+inhtml:{      <script>alert("hi there!")</script>    }
+// you can directly add javascript content in between script tag
+// imp tip:
+// use javascript linking tags bottom of the body tag in html for better performance
+// by that it will first load the html then css then it will load the javascript in the last
+
+
+
+
 // Number()
 // to convert any string into number
 // for example
