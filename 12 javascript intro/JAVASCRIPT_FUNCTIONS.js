@@ -65,8 +65,8 @@ function main(money){
 }
 main(5);
 // output:-
-   buy 3 bottles of milk
-   0.5 
+//    buy 3 bottles of milk
+//    0.5 
 //this 0.5 value we get it by using return
 
 
