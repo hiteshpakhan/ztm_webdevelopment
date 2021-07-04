@@ -39,6 +39,7 @@ if( ! (language === "jagfgkjhgbv") ) {
 // other examples:
 !false //true
 !true //false
+// its very important concept it can be used to turn on or off somthing 
 
 
 
