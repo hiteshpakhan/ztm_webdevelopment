@@ -32,6 +32,30 @@ f1();
 
 
 
+// you can also add values through the function 
+// to do that you habve to create a value name like example hear
+function fun(a){
+    console.log(a+5);
+}
+fun(5);
+// it will give us output
+10
+// and you can declare more than one values in the function like next exampls
+function fun(a,b,c){
+    console.log(a+5);
+    console.log(b+5);
+    console.log(c+5);
+}
+fun(5,3,2);
+// it will give us the output
+10
+8
+7
+
+
+
+
+
 
 
 

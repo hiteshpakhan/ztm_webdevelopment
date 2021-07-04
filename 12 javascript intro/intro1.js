@@ -77,6 +77,23 @@ console.log("nice to meet you here");
 
 
 
+
+// Math.floor()
+// Math.floore is used to round down the number
+// if the number in points it will remove the point numbers and gives only the full number only
+// for example
+Math.floor(1.6);
+// it will give you output:-
+1
+
+
+
+
+
+
+
+
+
 // Semicolon ( ; )
 // in javascript the semicolon means the end of the expression
 // most of the cases you dont need it but you shoud used it sometimes it cause an !error! 
