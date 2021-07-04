@@ -61,6 +61,22 @@ prompt("type your name")
 
 
 
+
+
+// consol.log()
+// MESSAGE IN THE CONSOLE LOG
+// you can give message in consol log also by using the 
+console.log("any message");
+// for example:-
+console.log("hi there!");
+console.log("hope your doing well");
+console.log("nice to meet you here");
+// it will show these message in the console of the browser
+
+
+
+
+
 // Semicolon ( ; )
 // in javascript the semicolon means the end of the expression
 // most of the cases you dont need it but you shoud used it sometimes it cause an !error! 
