@@ -32,7 +32,8 @@ f1();
 
 
 
-// you can also add values through the function 
+// you can also add values through the function
+// type1 
 // to do that you habve to create a value name like example hear
 function fun(a){
     console.log(a+5);
@@ -40,6 +41,8 @@ function fun(a){
 fun(5);
 // it will give us output
 10
+
+// type2
 // and you can declare more than one values in the function like next exampls
 function fun(a,b,c){
     console.log(a+5);
@@ -51,6 +54,20 @@ fun(5,3,2);
 10
 8
 7
+
+// type3
+// you can actually use return in the function
+// because of return you are not just give input but you can also get output by it 
+function main(money){
+    var bottle=money/1.5;
+    console.log("buy " + Math.floor(bottle) + " bottles of milk");
+    return money % 1.5;
+}
+main(5);
+// output:-
+   buy 3 bottles of milk
+   0.5 
+//this 0.5 value we get it by using return
 
 
 

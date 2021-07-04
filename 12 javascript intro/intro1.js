@@ -1,7 +1,12 @@
 // this is just practice means it is not link with any file
 // and also it it not in proper javascript way
 
+
+
+
 // IMP STUF:-
+
+
 
 // HOW TO LINK THE JAVASCRIPT FILE TO HTML
 // there are two ways to add javascript
@@ -85,9 +90,6 @@ console.log("nice to meet you here");
 Math.floor(1.6);
 // it will give you output:-
 1
-
-
-
 
 
 
