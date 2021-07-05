@@ -8,7 +8,6 @@
 // <!-- () => (new in ECMAScript 6) -->
 
 
-
 // function name() {}
 // function is like the container where you can store a block of code and you can access that block of code whenever you want
 // if you have to write the same code at many times you can use functions insted
@@ -70,9 +69,41 @@ main(5);
 //this 0.5 value we get it by using return
 
 
+// type3
+// you can use the return inside the function
+// for example
+function practice(money) {
+    var no = Math.floor(money/1.5);
+    console.log("buy " + no + " bottles of milk");
+    console.log("hi");
+    return money % 1.5; 
+}
+practice(4);
+// it will give the output:-
+// buy 2 bottles of milk
+// hi
+// 1                          
+//AND THIS IS THE MOST IMP RETURN money % 1.5 = 1
+// hear this 1 is the return we get from the output
+// note that you shoud use only one return statement in a function
+// if you use 2 or more than 2 return it only execute only one return in them
 
 
-
+// type4
+// you can store the value of return in a veriable also
+function practice(money) {
+    var no = Math.floor(money/1.5);
+    console.log("buy " + no + " bottles of milk");
+    console.log("hi");
+    return money % 1.5; 
+}
+var val = practice(8);      //hear we are storing the return value into val variable
+console.log("the return value of the program is "+ val);
+// it will give the output:-
+// buy 5 bottles of milk
+// hi
+// 6
+// the return value of the program is 0.5
 
 
 

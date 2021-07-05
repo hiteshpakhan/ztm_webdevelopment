@@ -82,6 +82,12 @@ console.log("nice to meet you here");
 
 
 
+// return
+
+
+
+
+
 
 // Math.floor()
 // Math.floore is used to round down the number
@@ -90,6 +96,23 @@ console.log("nice to meet you here");
 Math.floor(1.6);
 // it will give you output:-
 1
+
+
+
+
+
+// Math.round()
+// it will give the nerest integer
+// 1
+Math.round(2.6);
+// output:-
+3
+// 2
+Math.round(2.4);
+// output:-
+2
+
+
 
 
 
