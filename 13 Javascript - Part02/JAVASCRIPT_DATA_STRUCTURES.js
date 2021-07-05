@@ -4,3 +4,7 @@
 // -----------------
 // Array
 // Object
+
+
+// arrays
+// go to the folder array for explanation
