@@ -42,8 +42,6 @@ var mess=[1, "string", true, undefined, function f(){console.log("we created the
 
 
 
-
-
 // part2
 // we can also make an array within an array
 var fun=[ ["one","two","three"], ["one.1", "two.1", "three.1"], ["one.2", "two.2", "three.2"] ];
@@ -74,8 +72,78 @@ console.log(alphabats.shift());
 console.log(alphabats);
 // it will give an output:-
 //   ["B", "C", "D", "E", "F", "G", "H"]
+// everything is shifted to thr left now
 // hear we find that the a is errased
 // tip:- .shift() is not just hold the data_element but it totaly remove the data_element too
+
+// array_name.pop();
+// it is used to shift things to the right and errase the last element and shift the data to the right
+// for example:-
+console.log(alphabats.pop());
+// it will give us the output:-
+// "H"
+console.log(alphabats);
+// it will give us the output:-
+//   ["B", "C", "D", "E", "F", "G"]
+// see hears the last item in the array is been erresed
+// and all items are shifted to the right
+
+
+// array_name.push("data_u_want_to_push");
+// to add any data element to an array
+// you can used push element
+// for example:-
+console.log(alphabats.push("I"));
+// this will give you output:-
+//   7
+// the output is 7 because the data was add at the 7th position but still its address is 6
+console.log(alphabats);
+// this will give us the output:-
+//    ["B", "C", "D", "E", "F", "G", "I"]
+// you can see that the data ("I") that we push has been successfully at added to the last position in the array
+
+
+
+// array_name.length;
+// you can use these to insure your lenght of the array
+// it denont the no of data into your array
+// for example:-
+console.log(alphabats.length);
+// it will give you the output:-
+//   7
+
+
+// array_name.sort();
+// it used to make an array to the alphabetical order
+console.log(alphabats.sort());
+// it will give us the output:-
+//    ["B", "C", "D", "E", "F", "G", "I"]
+// but hear our array is already sorthe means it is alwaready at its alphabetical order
+// so it dosent change much
+
+
+
+
+// array_name.concat([array_that_you_want_to_add]);
+// for example:-
+console.log(alphabats.concat(["J","K","L","M"]));
+// it will give you the output:-
+// ["B", "C", "D", "E", "F", "G", "I", "J", "K", "L", "M"]
+// here as you can see the both arrays are mearge together
+// the array we concat is combine from the right side of the array
+// MOST IMP:-
+console.log(alphabats);
+// this will give the output:-
+//   ["B", "C", "D", "E", "F", "G", "I"]
+// you can see the array we mearge is not mearge with the main array we have to assign that mearge array the different variable for use any more further
+// to assgin the mearge values to the new variable
+// for example:-
+var alpha2 = alphabats.concat(["J","K","L","M"]);
+// noe the two array are permantlly mearge into the variable alpha2
+console.log(alpha2);
+// now this will give the output:-
+//    ["B", "C", "D", "E", "F", "G", "I", "J", "K", "L", "M"]
+// now you can use this alpha2 array anywhere in the program
 
 
 
