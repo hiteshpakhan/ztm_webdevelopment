@@ -8,6 +8,11 @@
 // <=
 // >
 // <
+// ++
+// --
+// +=
+// -+
+
 
 
 5 >= 1 // true
@@ -36,3 +41,35 @@ if (Number(age) < 18) {
 } else if (Number(age) === 18) {
 	alert("Congratulations on your first year of driving. Enjoy the ride!");
 }
+
+
+
+
+// increment expression
+var x=5;
+x++; //now the x=6
+
+
+// decrement expression
+var x=5;
+x--;  //now the x=4 
+
+
+// +=
+var x=5;
+x += 2;  //now the x=7
+
+
+// -=
+var x=5;
+x -= 2; //now the x=3
+
+
+
+
+
+
+
+
+
+

@@ -144,7 +144,7 @@ Math.round(2.4);
 // extends
 // finally
 // for
-// function
+// function            :- set of instruction
 // if
 // import
 // in
