@@ -13,7 +13,7 @@
 
 // STRING
 // you can create string by the doublequots ("") or the singlequots ('')
-// on string you can access the feature like (.lenght),(.slice)
+// on string you can access the feature like (.lenght), (.slice()), (.toUpperCase()/.toLowerCase())
 
 // (.length)
 // for example:-
@@ -41,6 +41,21 @@ name.slice(2,4);
 var paragraph = prompt("put your paragraph:");
 alert(paragraph.slice(0,151));
 // it will cou your paragraph that are more than 150 words
+
+// (.toUpperCase())/(.toLowerCase())
+// when we use the .toUpperCase() or .toLowerCase() it change the string but not in the main variable to chang it we have to assign it to the next variable or we can assign it to the same variable
+// for example:-
+var ul_case = "hi there hows it going"
+ul_case = ul_case.toUpperCase();
+console.log(ul_case);
+// noe it will give us the output:-
+//     HI THERE HOWS IT GOING
+// and second the example of .toLowerCase()
+ul_case = ul_case.toLowerCase();
+console.log(ul_case);
+// now it will give us the output:-
+// hi there hows it going
+
 
 
 
