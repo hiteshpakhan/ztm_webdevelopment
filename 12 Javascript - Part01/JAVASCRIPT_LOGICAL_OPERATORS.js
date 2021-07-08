@@ -43,8 +43,13 @@ if( ! (language === "jagfgkjhgbv") ) {
 
 
 
+// increment expression
+var x=5;
+x++; //now the x=6
 
-
+// decrement expression
+var x=5;
+x--;  //now the x=4 
 
 
 

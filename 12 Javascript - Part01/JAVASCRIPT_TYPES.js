@@ -56,16 +56,23 @@ console.log(ul_case);
 // now it will give us the output:-
 // hi there hows it going
 
-
-
+// exercise to make the given names first letter capital
+var a = prompt("enter your name in lower case");
+var b = a.slice(0,1);
+b = b.toUpperCase(); 
+// console.log(b);
+var c = a.slice(1,a.length);
+// console.log(c);
+console.log(b+c);
+// it will convert the first letter of any string capital
 
 
 // Number:-
 // you can create the number very easly
 // you just have to create it with any semicolon or anything 
 // for example:-
-var a=2;
-// hear we assign the variable named by a with the number value of 2
+var oyyee=2;
+// hear we assign the variable named by oyyee with the number value of 2
 
 
 // BOOLEAN
