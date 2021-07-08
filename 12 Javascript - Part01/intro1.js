@@ -115,6 +115,27 @@ Math.round(2.4);
 
 
 
+//Math.pow( number , the power of number means index of number that can be square(2) cube(3) etc );
+Math.pow(7, 3);  //it means sevens cube
+// output:-
+343
+
+Math.pow(4, 0.5); //it means 4 to the power 0.5
+// output:-
+2
+
+Math.pow(-7, 0.5); //it means -7 to the index of 0.5
+// output:-
+NaN
+
+
+
+
+// Math.random();
+// it allow us to create different random number between 0 - to 0.999999999
+
+
+
 
 
 
