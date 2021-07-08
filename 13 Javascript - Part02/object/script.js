@@ -56,6 +56,57 @@ console.log(user);
 // the age change to 21 and is_married status change to the true from false
 
 
+// ARRAYS INSIDE AN OBJECT:-
+// yes you can use arrays inside object
+// for example here we are creating the same object as an user named user2 that will have contain 1 array
+var user2={
+    name:"john",
+    age:34,
+    hobby:"soccor",
+    is_married:false,
+    list: ["item1","item2","item3","item4"],
+};
+// so now if we see the user 2:-
+console.log(user2);
+// it will give the output:-
+//    {name: "john", age: 34, hobby: "soccor", is_married: false, list: Array(4)}
+// if we expand it
+// ------------
+// {name: "john", age: 34, hobby: "soccor", is_married: false, list: Array(4)}
+// age: 34
+// hobby: "soccor"
+// is_married: false
+// list: Array(4)
+// 0: "item1"
+// 1: "item2"
+// 2: "item3"
+// 3: "item4"
+// length: 4
+// __proto__: Array(0)
+// name: "john"
+// ------------
+// you can see that the array is successfully created inside an object 
+// YOU CAN ALSO CALLED THE ITEMS INSIDE THE ARRAY INSIDE THE OBJECT
+// if we want to access the item2 inside the array
+// for example:-
+console.log(user2.list[1]);
+console.log(user2.list[3]);
+// you will get the output:-
+//  item2
+//  item4
+
+
+// IMP
+// AS ITIS YOU CAN ALSO USE THE {OBJECT} INSIDE AN [ARRAY] AS YOU USE [ARRAY] INSIDE THE {OBJECT}
+
+
+
+
+
+
+
+
+
 
 
 

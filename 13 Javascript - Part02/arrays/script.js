@@ -151,6 +151,36 @@ console.log(alpha2);
 
 
 
+// you can also use the object inside the arrays
+// for example:-
+var experiment = [
+    {
+        username: "hitesh",
+        password: "pakhan",
+    },
+    {
+        username: "h",
+        password: "p",
+    },
+];
+// and if you see the experiment array now you see
+console.log(experiment);
+// it will show the output:-
+// ---------------------
+// [{…}, {…}]
+// 0: {username: "hitesh", password: "pakhan"}
+// 1: {username: "h", password: "p"}
+// length: 2
+// ---------------------
+// and if you want to call specific item you can call like 
+// for example:-
+console.log(experiment[1].username);
+// you will get the output:-
+// h
+
+
+
+
 
 
 
