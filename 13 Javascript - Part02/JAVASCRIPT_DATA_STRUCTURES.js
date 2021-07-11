@@ -51,7 +51,7 @@
 
 // some array examples:-
 // using this array, 
-var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];    // for see the description go to the array folder
 
 // 1. Remove the Banana from the array.
 array.shift();
@@ -80,7 +80,7 @@ array2[1][1][0];
 
 // ------------------------------------------------------------------------------------------
 
-// ** 2 object
+// ** 2 object                                                     // for see the description go to the object folder
 // objects are the colliction of properties
 
 // for further explanation you can go to the object folder 

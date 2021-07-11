@@ -85,6 +85,21 @@ console.log(mul2(32, 3));
 
 
 
+// you can also do:-
+function mul3(a, b){
+    return a+b;
+}
+alert(mul3(5, 4));
+// it will give you the output in alert
+// 9
+
+
+
+// IMP there is two terms 1(parameter) 2(argument)
+// 1(parameters):-
+// and if you see the upper example you will see that we first assign the empty variable like terms to the function that are (a, b) this is called as parameters
+// 2(argument):-
+// and if you see when we called the function we give the value (5, 4) these are called as a argument   
 
 
 

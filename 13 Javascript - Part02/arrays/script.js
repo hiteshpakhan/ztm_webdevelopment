@@ -1,3 +1,5 @@
+// ARRAYS
+
 // part1
 var s_trings=["tiger", "cat", "bear", "bird"];
 // this is the way you can create the array 
