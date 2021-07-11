@@ -2,13 +2,18 @@
 // *
 // JAVASCRIPT FUNCTIONS
 // -----------------
-// var a = function name() {}
-// function name() {}
+// var a = function_name() {}
+// function_name() {}
 // return
 // <!-- () => (new in ECMAScript 6) -->
 
 
-// function name() {}
+// example of the functions:-
+// alert(), prompt(), etc. these are the function that are already inbuild in the javascript
+// but if you want you can also create the costum function in the javascript that are below: 
+
+
+// function_name() {}
 // function is like the container where you can store a block of code and you can access that block of code whenever you want
 // if you have to write the same code at many times you can use functions insted
 // to create the function you have to use keyword 
