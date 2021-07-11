@@ -52,6 +52,38 @@ console.log(c);
 // it will give the output:-
 // 50
 
+// another example of return
+function mul(a, b){
+    if(a>10 || b>10){
+        return "thats too hard";
+    }else{
+        return a*b;
+    }
+}
+console.log(mul(5, 10));
+console.log(mul(5, 20));
+// it will give the output:-
+// 50
+// thats too hard
+
+
+// but if in another case if you put return outside the if else then it never get to the outside return function
+// for example:-
+function mul2(a, b){
+    if(a>10 || b>10){
+        return "all set";
+    }else{
+        return "hi its me";
+    }
+    return a+b;           // but in any condition upper any return works then this return will never assigned
+} 
+console.log(mul2(32, 3));
+// it will give the output:-
+// all set
+// and thats the output of first return 
+// because the if else execute the return then the control automatically stops the execution
+
+
 
 
 
