@@ -24,11 +24,33 @@ say_bye();
 
 
 
+// you can use the brackets () to provide the values inside the function
+// for example:-
+
+function example1(a,b){
+    console.log(a + b);
+}
+example1(2,3)
+example1("hello ","everyone")
+example1(2," is the number")
+// it will give the output:-
+// 5
+// script.js:31 hello everyone
+// script.js:31 2 is the number
 
 
 
 
-
+// TYPE 3 return
+// for example:-
+function multiply(a, b){
+    return a * b;
+}
+// multiply(5, 10);
+var c = multiply(5, 10);
+console.log(c);
+// it will give the output:-
+// 50
 
 
 
