@@ -2,8 +2,8 @@
 // *
 // JAVASCRIPT DATA STRUCTURES
 // -----------------
-// Array
-// Object
+// Array []
+// Object {}
 
 
 //* 1 arrays

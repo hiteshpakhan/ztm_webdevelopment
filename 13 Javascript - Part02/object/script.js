@@ -101,6 +101,27 @@ console.log(user2.list[3]);
 
 
 
+// IMP
+// but if you used function inside the object it called as an method of that object
+var user3 = {
+    name : "hitesh",
+    fathar_name : "sanjay",
+    last_name : "pakhan",
+    roll_no : 29,
+    f_1 : function(a){
+        alert("hi there" + a);
+    } 
+}
+// the main thing is that whan you want to call the function inside the object its little bit different
+// for example
+user3.f_1(33);
+// as you can see that we declare the brackets() along with the function because we are calling the function 
+// function always required the pair of brackets() along with them to execute the function
+// it will ggive us the output:-
+// hi there33
+
+
+
 
 
 
