@@ -29,7 +29,7 @@ inhtml:{      <script>alert("hi there!")</script>    }
 // for example
 var first=prompt("enter first number");
 var second=prompt("enter second number");
-// the prompt() always read the value in the string if we want to add it we have to convert it into the integer noumber form
+// the prompt() always read the value in the string if we want to add it we have to convert it into the integer number form
 var sum= Number(first) + Number(second);  
 // very imp here we convert the string into number
 alert("the sum is:" + sum);
@@ -210,3 +210,43 @@ NaN
 // when you mearging the int with the string it converts the int into the string automatically
 
 3 - 4 //  -1
+
+
+
+
+
+
+
+
+// imp
+// code for desabling the rightclick from the page 
+// please put it inside the head tag
+// code:-
+
+// <script type="text/JavaScript">   
+// window.oncontextmenu = function() {
+//   alert('Right Click Disabled');
+//   return false;
+// }
+// function autoResize(i)
+// {
+//     var iframeHeight=
+//     (i).contentWindow.document.body.scrollHeight;
+//     (i).height=iframeHeight;
+// }
+// window.onload=function() {
+//     init();
+// }
+// </script>
+
+
+
+
+
+
+
+
+
+
+
+
