@@ -42,8 +42,28 @@ while(counter2>0){
 
 
 
+// do while loop
+// whith the while loop we check the condition first but with the do while loop we check the condition in the end of the loop
+// do while loop example
+var count2 = 10;
+do{
+    console.log(count2);
+    count2--;
+}while(count2>0);
+// it will give the output:-
+// 10
+// 9
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1
 
-
+// the specility of the do while loop is that it will run the code atleast once even the condition is not match or correct
+// besides the while loop only execute when the condition is full fill
 
 
 
