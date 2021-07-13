@@ -1,7 +1,7 @@
 // this is just practice means it is not link with any file
 // and also it it not in proper javascript way
 
-
+// best javascript resource online: https://grasshopper.app/curriculum/fundamentals-1/
 
 
 // IMP STUF:-
