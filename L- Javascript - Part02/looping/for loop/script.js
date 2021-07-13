@@ -65,9 +65,31 @@ console.log(todo_list);
 
 
 
-// you can face such problem in the future 
-// for example:-
-
+// you can face such problem in the future
+// if you want to remove the items one by one
+// for example
+// for (var i = 0; i < todo_list.length; i++){
+//     todo_list.pop();
+// }
+// console.log(todo_list);
+// it will give the output:
+// ["item_1", "item_2"]
+// but we suppose to empty the array
+// then where is the problem occore then
+// 
+// explanation:-
+// because after each the pop operation perform the length of the string is gatting reduced by one
+// 
+//  and the correct programe code of to remove the each item is
+// code:-
+var len1 = todo_list.length;
+for (var i = 0; i < len1; i++){
+    todo_list.pop();
+};
+console.log(todo_list);
+// it will give the output:-
+// []
+// finally we get our empty array
 
 
 
