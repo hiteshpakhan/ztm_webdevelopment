@@ -17,7 +17,7 @@ while(counter1<10){
 // 8
 // 9
 // it stops because we gave it condition (counter1<10)
-
+// 
 var counter2 = 10;
 while(counter2>0){
     console.log(counter2);
