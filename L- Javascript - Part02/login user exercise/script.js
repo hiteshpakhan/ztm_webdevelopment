@@ -16,8 +16,8 @@ var newsFeed = [
     }
 ];
 
-var given_username = prompt("enter the username : ");
-var given_password = prompt("enter your pass ");
+var get_name = prompt("enter the username : ");
+var get_pass = prompt("enter your pass ");
 
 function sign_in(user, pass){
     if(user === database[0].username && pass === database[0].password){
@@ -26,7 +26,7 @@ function sign_in(user, pass){
         alert("sorry wrong username or password");
     }
 };
-sign_in(given_username, given_password);
+sign_in(get_name, get_pass);
 
 
 
