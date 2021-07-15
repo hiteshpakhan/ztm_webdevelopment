@@ -47,10 +47,22 @@ a.forEach(function(a, i){
 
 
 
+a.forEach(function(a, i, j){
+    console.log(a, i, j);
+});
+// it will give you output:-
+// item_1 0 (5) ["item_1", "item_2", "item_3", "item_4", "item_5"]
+// item_2 1 (5) ["item_1", "item_2", "item_3", "item_4", "item_5"]
+// item_3 2 (5) ["item_1", "item_2", "item_3", "item_4", "item_5"]
+// item_4 3 (5) ["item_1", "item_2", "item_3", "item_4", "item_5"]
+// item_5 4 (5) ["item_1", "item_2", "item_3", "item_4", "item_5"]
 
 
 
 
-
+// a.forEach(function(i, a){
+//     console.log(i, a);
+// });
+// guess the answere:-
 
 
