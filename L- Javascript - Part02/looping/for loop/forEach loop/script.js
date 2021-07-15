@@ -3,13 +3,14 @@
 // just understand the loop you dont have to use it for many times
 // 
 // for example:-
-var list_arr1 = ["item_1",
-"item_2",
-"item_3",
-"item_4",
-"item_5"
+var a = [
+    "item_1",
+    "item_2",
+    "item_3",
+    "item_4",
+    "item_5"
 ];
-list_arr1.forEach(function(i){
+a.forEach(function(i){
     // here the function recives the argunment value of i that will forward by the forEach
     console.log(i);
 });
@@ -22,8 +23,8 @@ list_arr1.forEach(function(i){
 // 
 // there is the one another way 
 // 
-list_arr1.forEach(function(list_arr1){
-    console.log(list_arr1);
+a.forEach(function(a){
+    console.log(a);
 });
 // even if i replace the i with the list_arr1 it gives us the same output
 //  item_1
@@ -34,8 +35,8 @@ list_arr1.forEach(function(list_arr1){
 
 
 
-list_arr1.forEach(function(list_arr1, i){
-    console.log(list_arr1, i);
+a.forEach(function(a, i){
+    console.log(a, i);
 });
 // it will give you the output
 // item_1 0
