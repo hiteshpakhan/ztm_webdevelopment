@@ -14,7 +14,7 @@ var database = [
     {
         username : "hitesh4",
         password : "mao9tittre4"
-    },
+    }
 ];
 
 var user = prompt("enter your username");
