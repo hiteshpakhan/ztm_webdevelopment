@@ -1,4 +1,4 @@
-var arr = [
+var database = [
     {
         username : "hitesh",
         password : "mao9tittre"
@@ -20,13 +20,23 @@ var arr = [
 var user = prompt("enter your username");
 var pass = prompt("enter your password");
 
-function login(a, b){
-    for (var i=0; i < arr.length; i++){
-        if(arr[i].username===a && arr[i].password===b){
-            alert("Welcome Home");
+function fun2(a, b){
+    for (var i=0; i<database.length; i++){
+        if(a===database[i].username && b===database[i].password){
+            return true;
         }
     }
+    return false;
+}
+
+function login(a, b){
+    if(fun2(a, b)){
+        console.log("welcome");
+    }else{
+        console.log("wrong username or password");
+    }
 };
+
 
 login(user, pass);
 
