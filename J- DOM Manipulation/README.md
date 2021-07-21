@@ -30,11 +30,11 @@
    for ex:
    if we give the command inside the console.log
 
-   <!-- console.log(window); -->
+   console.log(window);
 
    it will give us the output:-  
 
-   <!-- Window {0: global, window: Window, self: Window, document: document, name: "", location: Location, …}
+   Window {0: global, window: Window, self: Window, document: document, name: "", location: Location, …}
         0: global {window: global, self: global, location: {…}, closed: false, frames: global, …}
         JSCompiler_renameProperty: ƒ (prop,obj)
         ShadyCSS: {prepareTemplate: ƒ, prepareTemplateStyles: ƒ, prepareTemplateDom: ƒ, styleSubtree: ƒ, styleElement: ƒ, …}
@@ -45,7 +45,7 @@
         .
         .
         webkitURL: ƒ URL()
-        __proto__: Window -->
+        __proto__: Window
 
     in here we can see that the window is actualy a object contain the propertys like the alert, document, etc.
 
