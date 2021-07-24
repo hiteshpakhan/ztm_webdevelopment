@@ -1,8 +1,8 @@
 DOM Selectors
 --------------
-getElementsByTagName
-getElementsByClassName
-getElementById
+  getElementsByClassName
+  getElementsByTagName
+  getElementById
 
 querySelector
 querySelectorAll
@@ -29,6 +29,8 @@ children
 ##It is important to CACHE selectors in variables
 ----------------------------------------------------------------------------------------------
 now the explation of this upper syntax:
+
+
 
 
 
