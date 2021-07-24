@@ -27,3 +27,11 @@ parentElement
 children
 
 ##It is important to CACHE selectors in variables
+----------------------------------------------------------------------------------------------
+now the explation of this upper syntax:
+
+
+
+
+
+
