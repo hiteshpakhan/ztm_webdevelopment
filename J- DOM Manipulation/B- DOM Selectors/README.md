@@ -1,34 +1,38 @@
 DOM Selectors
 --------------
-getElementsByClassName
-getElementsByTagName
-getElementById
+        getElementsByClassName
+        getElementsByTagName
+        getElementById
 
-querySelector
-querySelectorAll
+        querySelector
+        querySelectorAll
 
-getAttribute
-setAttribute
+        getAttribute
+        setAttribute
 
 ##Changing Styles
-style.{property} //ok
+-----------------
+        style.{property} //ok
 
-className //best
-classList //best
+        className //best
+        classList //best
 
-classList.add
-classList.remove
-classList.toggle
+        classList.add
+        classList.remove
+        classList.toggle
 
 ##Bonus
-innerHTML //DANGEROUS
-
-parentElement
-children
+-------
+        innerHTML //DANGEROUS
+        
+        parentElement
+        children
 
 ##It is important to CACHE selectors in variables
+-------------------------------------------------
 
 ----------------------------------------------------------------------------------------------
+
 now the explation of this upper syntax:
 
 1- getElementsByClassName
