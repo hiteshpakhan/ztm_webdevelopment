@@ -24,7 +24,7 @@ DOM Selectors
 ##Bonus
 -------
         innerHTML //DANGEROUS
-        
+
         parentElement
         children
 
@@ -34,22 +34,31 @@ DOM Selectors
 ----------------------------------------------------------------------------------------------
 
 now the explation of this upper syntax:
+now to explain this we are executing our commands in the console_log
 
 1- getElementsByClassName
 -------------------------
-now to explain this we are executing our commands in the console_log
-
         document.getElementsByTagName("h1");
-        op:-
+        output:-
         HTMLCollection [h1]
         0: h1
         length: 1
         [[Prototype]]: HTMLCollection
-      
-now as you can see getElementByTagName used to pick the html tag_name
+    
+as you can see getElementsByTagName used to pick the tags in the html file
+here as in our html file the h1 tag is selected 
 
 2- getElementsByClassName
 -------------------------
+        document.getElementsByClassName("second")
+        output:-
+        HTMLCollection [p.second]
+        0: p.second
+        length: 1
+        [[Prototype]]: HTMLCollection
+
+as you can see getElementsByClassName used to pick the 
+
 
 
 
