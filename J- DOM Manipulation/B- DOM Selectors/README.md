@@ -53,14 +53,23 @@ this inside console log :
 
         document.getElementsByClassName("second")
         output:-
-        HTMLCollection [p.second]
+        HTMLCollection(2) [p.second, p.second]          //there are 2 <p> tag with class name "second" so it will show them in array
         0: p.second
-        length: 1
+        1: p.second
+        length: 2
         [[Prototype]]: HTMLCollection
 
 as you can see getElementsByClassName used to pick the class by ther declared names
-here as paragraph tag cointain the class name "second" so it will pick the <p> tag
+here as paragraph tag cointain the class name "second" so it will pick the \<p> tag
 
+there are 2 \<p> tag with class name "second" so it will show them in array
+to access the single one in that array you can use the further example:-
+
+        document.getElementsByClassName("second")[0]
+        output:-
+        <p class=​"second">​zero execuse​</p>​      //as you see now it show the first <p> tag   
+
+here we used the [0] to get the first tag in the array of tags
 
 
 
