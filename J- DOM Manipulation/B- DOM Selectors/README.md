@@ -1,8 +1,8 @@
 DOM Selectors
 --------------
-        getElementsByClassName
         getElementsByTagName
-        getElementById
+        getElementsByClassName
+        getElementById             //you can see that hear we used "element" insted of "elements" we did not use the "s" because id is the single unique out of all  
 
         querySelector
         querySelectorAll
@@ -31,13 +31,12 @@ DOM Selectors
 ##It is important to CACHE selectors in variables
 -------------------------------------------------
 
-----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
-now the explation of this upper syntax:
-now to explain this we are executing our commands in the console_log
-
-1- getElementsByClassName
+1- getElementsByTagName
 -------------------------
+this inside console log :
+
         document.getElementsByTagName("h1");
         output:-
         HTMLCollection [h1]
@@ -50,6 +49,8 @@ here as in our html file the h1 tag is selected
 
 2- getElementsByClassName
 -------------------------
+this inside console log :
+
         document.getElementsByClassName("second")
         output:-
         HTMLCollection [p.second]
@@ -57,8 +58,8 @@ here as in our html file the h1 tag is selected
         length: 1
         [[Prototype]]: HTMLCollection
 
-as you can see getElementsByClassName used to pick the 
-
+as you can see getElementsByClassName used to pick the class by ther declared names
+here as paragraph tag cointain the class name "second" so it will pick the <p> tag
 
 
 
