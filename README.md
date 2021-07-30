@@ -1,2 +1,30 @@
-# ztm_webdevelopment
-it just a practice files that i created for the practice of my web development cource
+WEB DEVELOPMENT COURCE BEST NOTES
+---------------------------------
+this cource cointain the languages
+
+        HTML
+        CSS
+        JAVASCRIPT
+
+INDEX
+-----
+1 HTML5             //all the HTNL tags and explanation 
+
+2 CSS               //all the basic CSS
+
+3 ADVANCED CSS      //importent CSS with exercise
+
+4 helping material
+
+        BOOTSTRAP
+        BOOTSTRAP GRID
+        LANDING PAGE
+        ANIMATE.CSS
+
+5 CSS GRID
+
+
+
+
+
+
