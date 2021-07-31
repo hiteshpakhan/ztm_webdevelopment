@@ -14,16 +14,20 @@ INDEX
 
 3 ADVANCED CSS      //importent CSS with exercise
 
-4 helping material
+4 BOOTSTRAP
 
         BOOTSTRAP
         BOOTSTRAP GRID
         LANDING PAGE
         ANIMATE.CSS
 
-5 CSS GRID
+5 GRID AND LAYOUT
 
+        CSS GRID
+        CSS LAYOUT
+        CSS LAYOUT 2
 
+6 
 
 
 
