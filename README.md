@@ -1,12 +1,7 @@
-WEB DEVELOPMENT COURCE BEST NOTES
+#WEB DEVELOPMENT COURCE BEST NOTES
 ---------------------------------
-this cource cointain the languages
 
-        HTML
-        CSS
-        JAVASCRIPT
-
-INDEX
+INDEX :-
 -----
 1) HTML5             //all the HTNL tags and explanation 
 
