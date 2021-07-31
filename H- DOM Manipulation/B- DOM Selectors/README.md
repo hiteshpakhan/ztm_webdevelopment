@@ -33,11 +33,11 @@ DOM Selectors
 
 ----------------------------------------------------------------------------
 
-1- getElementsByTagName
+1- getElementsByTagName()      
 -------------------------
-this inside console log :
+        console log:-
+        document.getElementsByTagName("h1")
 
-        document.getElementsByTagName("h1");
         output:-
         HTMLCollection [h1]
         0: h1
@@ -47,11 +47,11 @@ this inside console log :
 as you can see getElementsByTagName used to pick the tags in the html file
 here as in our html file the h1 tag is selected 
 
-2- getElementsByClassName
+2- getElementsByClassName()
 -------------------------
-this inside console log :
-
+        console log:-
         document.getElementsByClassName("second")
+
         output:-
         HTMLCollection(2) [p.second, p.second]          //there are 2 <p> tag with class name "second" so it will show them in array
         0: p.second
@@ -65,18 +65,49 @@ here as paragraph tag cointain the class name "second" so it will pick the \<p> 
 there are 2 \<p> tag with class name "second" so it will show them in array
 to access the single one in that array you can use the further example:-
 
+        console log:-
         document.getElementsByClassName("second")[0]
+
         output:-
         <p class=​"second">​zero execuse​</p>​      //as you see now it show the first <p> tag   
 
 here we used the [0] to get the first tag in the array of tags
 
+3- getElementById()
+-----------------
+this is quite different by class and tag here to declare we used only the "element" not the "elements"
 
+        console log:-
+        document.getElementById("first")
 
+        output:-
+        <p id=​"first">​Get it done today​</p>​
 
+hear you can see that it show the id tag that has name first
 
+4- querySelector()
+----------------
+with querySelector you can select elements just like we do in the css
 
+        console log:-
+        document.querySelector("h1")
+        
+        output:-
+        <h1>​Shopping List​</h1>​
 
+but the probleme here is that it only selects the first item among all for example
+
+        console log:-
+        document.querySelector("li")
+
+        output:-
+        <li random=​"23">​…​</li>​        //but among all the <li> it only selects the first <li> item
+
+to selects all the items at a time by query we can use next syntax querySelectorAll
+
+5- querySelectorAll()
+---------------------
+querySelectorAll can select all the element of that tag name
 
 
 
