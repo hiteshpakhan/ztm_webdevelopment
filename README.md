@@ -8,27 +8,30 @@ this cource cointain the languages
 
 INDEX
 -----
-1 HTML5             //all the HTNL tags and explanation 
+1) HTML5             //all the HTNL tags and explanation 
 
-2 CSS               //all the basic CSS
+2) CSS               //all the basic CSS
 
-3 ADVANCED CSS      //importent CSS with exercise
+3) ADVANCED CSS      //importent CSS with exercise
 
-4 BOOTSTRAP
+4) BOOTSTRAP
 
         BOOTSTRAP
         BOOTSTRAP GRID
         LANDING PAGE
         ANIMATE.CSS
 
-5 GRID AND LAYOUT
+5) GRID AND LAYOUT
 
         CSS GRID
         CSS LAYOUT
         CSS LAYOUT 2
 
-6 
+6) JAVASCRIPT PART-1
 
+7) JAVASCRIPT PART-2
+
+8) DOM MANIPULATRION   //Document Object Model
 
 
 
