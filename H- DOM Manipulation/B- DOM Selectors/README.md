@@ -120,9 +120,15 @@ to selects all the items at a time by query we can use number 5 syntax querySele
 
         output:-
         "yellow"           //the background color of the h1 tag has been successfully changed
+        -------------------------------------------------------------------------------
+        or you can do this second way
 
+        console log:-
+        var h1 = document.querySelector("h1")
+        h1.style.background = "red";
 
-
+        output:-
+        "red"             //the background color of the h1 tag has been successfully changed
 
 5- querySelectorAll()
 ---------------------
@@ -189,6 +195,52 @@ steAttribute is just like the getAttribute but we can change the attribute by th
 -----------------------------------------------------------------------------
 Changing Styles 
 ---------------
+
+1- style.{property}
+-------------------
+* it just like we did in querySelector() we use the style. also inside it 
+
+        console log:-
+        document.querySelector("h1").style.background = "yellow";      //here we use the style.{property} syntaxthat changed the color
+
+        output:-
+        "yellow"           //the background color of the h1 tag has been successfully changed
+
+        ----------------------------------------------------------------------------
+        or you can do this second way
+
+        console log:-
+        var h1 = document.querySelector("h1")     //here we add the value to the h1 variable
+        h1.style.background = "red";
+
+        output:-
+        "red"             //the background color of the h1 tag has been successfully changed
+
+2- className
+------------
+* by this you can assign the classname to any tag
+
+        console log:-
+        var a = document.querySelector("h1");
+        a.className = "coolTitle";
+
+        output:-
+        "coolTitle"  //by this all the propertyes of class "coolTitle" in the css are apply to the h1 tag
+
+3- classList
+------------
+* it is used to see the class name that the tag has
+
+        console log:-
+        document.querySelector("h2").classList;
+
+        output:-
+        DOMTokenList(4) ["cn1", "cn2", "cn3", "cn4", value: "cn1 cn2 cn3 cn4"]
+
+
+
+
+
 
 
 
