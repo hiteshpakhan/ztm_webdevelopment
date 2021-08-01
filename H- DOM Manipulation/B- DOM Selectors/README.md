@@ -109,6 +109,33 @@ to selects all the items at a time by query we can use next syntax querySelector
 ---------------------
 querySelectorAll can select all the element of that tag name
 
+        example 1 | console log:-
+        document.querySelectorAll("li")
+
+        output:-
+        NodeList(6) [li, li, li, li, li, li]
+        0: li
+        1: li
+        2: li
+        3: li
+        4: li
+        5: li
+        length: 6            //now as you can see it gives all the <li> tag element 
+        ----------------------------------------------------------------------
+
+        example 2 | console log:-
+        document.querySelectorAll("li, h1")
+
+        output:-
+        NodeList(7) [h1, li, li, li, li, li, li]
+        0: h1
+        1: li
+        2: li
+        3: li
+        4: li
+        5: li
+        6: li
+
 
 
 
