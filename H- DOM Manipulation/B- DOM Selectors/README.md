@@ -242,19 +242,27 @@ Changing Styles
 * it is used to add the class
 
         console log:-
-        document.querySelector("h2").classList.add("coolTitle");         //it will add the new class
+        document.querySelector("h2").classList.add("coolTitle");         //it will add the new class "coolTitle"
         document.querySelector("h2").classList;                          //it will show the list of classes
 
-        output:-
-        undefined    
+        output:-  
         ["cn1", "cn2", "cn3", "cn4", "coolTitle", value: "cn1 cn2 cn3 cn4 coolTitle"]            
 
-* as you can see that the new class coolTitle has been added
+* as you can see that the new class "coolTitle" has been added
 
+5- classList.remove()
+--------------------
+* it is totly opposite to the classList.add() 
+* it is used to remove the class from the tag 
 
+        console log:-
+        document.querySelector("h2").classList.remove("cn1");         //it will remove the class named "cn1"
+        document.querySelector("h2").classList;  
 
+        output:-
+        ["cn2", "cn3", "cn4", value: "cn2 cn3 cn4"]
 
-
+* as you can see that the class named "cn1" is removed from the list
 
 
 
