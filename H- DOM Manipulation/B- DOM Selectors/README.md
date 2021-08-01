@@ -44,8 +44,8 @@ DOM Selectors
         length: 1
         [[Prototype]]: HTMLCollection
     
-as you can see getElementsByTagName used to pick the tags in the html file
-here as in our html file the h1 tag is selected 
+* as you can see getElementsByTagName used to pick the tags in the html file
+* here as in our html file the h1 tag is selected 
 
 2- getElementsByClassName()
 -------------------------
@@ -59,10 +59,9 @@ here as in our html file the h1 tag is selected
         length: 2
         [[Prototype]]: HTMLCollection
 
-as you can see getElementsByClassName used to pick the class by ther declared names
-here as paragraph tag cointain the class name "second" so it will pick the \<p> tag
-
-there are 2 \<p> tag with class name "second" so it will show them in array
+* as you can see getElementsByClassName used to pick the class by ther declared names
+* here as paragraph tag cointain the class name "second" so it will pick the \<p> tag
+* there are 2 \<p> tag with class name "second" so it will show them in array
 to access the single one in that array you can use the further example:-
 
         console log:-
@@ -71,7 +70,7 @@ to access the single one in that array you can use the further example:-
         output:-
         <p class=​"second">​zero execuse​</p>​      //as you see now it show the first <p> tag   
 
-here we used the [0] to get the first tag in the array of tags
+* here we used the [0] to get the first tag in the array of tags
 
 3- getElementById()
 -----------------
@@ -87,7 +86,7 @@ hear you can see that it show the id tag that has name first
 
 4- querySelector()
 ----------------
-with querySelector you can select elements just like we do in the css
+* with querySelector you can select elements just like we do in the css
 
         console log:-
         document.querySelector("h1")
@@ -95,7 +94,7 @@ with querySelector you can select elements just like we do in the css
         output:-
         <h1>​Shopping List​</h1>​
 
-but the probleme here is that it only selects the first item among all for example
+* but the probleme here is that it only selects the first item among all for example
 
         console log:-
         document.querySelector("li")
@@ -103,13 +102,34 @@ but the probleme here is that it only selects the first item among all for examp
         output:-
         <li random=​"23">​…​</li>​        //but among all the <li> it only selects the first <li> item
 
-to selects all the items at a time by query we can use next syntax querySelectorAll
+to selects all the items at a time by query we can use number 5 syntax querySelectorAll()
+
+* we can see the css propertyes by querySelectors
+
+        console log:-
+        document.querySelector("h1").style;
+
+        output:-
+        CSSStyleDeclaration {additiveSymbols: "", alignContent: "", alignItems: "", alignSelf: "", alignmentBaseline: "", …}
+        <!-- it is default css of h1 -->
+
+* and we can also changed the css propertyes by querySelector
+
+        console log:-
+        document.querySelector("h1").style.background = "yellow";
+
+        output:-
+        "yellow"           //the background color of the h1 tag has been successfully changed
+
+
+
 
 5- querySelectorAll()
 ---------------------
-querySelectorAll can select all the element of that tag name
+* querySelectorAll() can select all the element of that tag name
+* example 1
 
-        example 1 | console log:-
+        console log:-
         document.querySelectorAll("li")
 
         output:-
@@ -121,9 +141,10 @@ querySelectorAll can select all the element of that tag name
         4: li
         5: li
         length: 6            //now as you can see it gives all the <li> tag element 
-        ----------------------------------------------------------------------
 
-        example 2 | console log:-
+* example 2
+
+        console log:-
         document.querySelectorAll("li, h1")
 
         output:-
@@ -166,8 +187,9 @@ steAttribute is just like the getAttribute but we can change the attribute by th
         <li random=​"200">​…​</li>​             //as you can see that the value is successfully changed
 
 -----------------------------------------------------------------------------
-Changing Styles Explain
------------------------
+Changing Styles 
+---------------
+
 
 
 
