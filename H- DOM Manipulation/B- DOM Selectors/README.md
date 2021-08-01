@@ -160,13 +160,14 @@ steAttribute is just like the getAttribute but we can change the attribute by th
         ----------------------------------------------------------------------
 
         console log:-
-        document.querySelector("li").getAttribute("random");
+        document.querySelector("li");
         
         output:-
-        "200"     //as you can see that the value is successfully changed
+        <li random=​"200">​…​</li>​             //as you can see that the value is successfully changed
 
-
-
+-----------------------------------------------------------------------------
+Changing Styles Explain
+-----------------------
 
 
 
