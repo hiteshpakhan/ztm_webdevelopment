@@ -136,8 +136,16 @@ querySelectorAll can select all the element of that tag name
         5: li
         6: li
 
+6- getAttribute()
+---------------
+before you use the getAttribute you have to select the element
+if we want to get the random="23" attribute we had to select the element first and then use the getAttribute 
 
+        console log:-
+        document.querySelector("li").getAttribute("random");
 
+        output:-
+        "23"              //getAttribute can be used to grab attribute and for example you can changed the hight width of image
 
 
 
