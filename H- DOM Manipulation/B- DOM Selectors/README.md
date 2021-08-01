@@ -193,7 +193,7 @@ steAttribute is just like the getAttribute but we can change the attribute by th
         <li random=​"200">​…​</li>​             //as you can see that the value is successfully changed
 
 -----------------------------------------------------------------------------
-Changing Styles 
+##Changing Styles 
 ---------------
 
 1- style.{property}
@@ -301,6 +301,16 @@ Changing Styles
         output:-
         false
         
+##BONUS
+-------
+1- innerHTML
+------------
+
+        console log:-
+        document.querySelectorAll("li")[5].innerHTML="<strong> new text </strong>";
+
+        output:-
+        "<strong> new text </strong>"     //it will changet the content os the html tag
 
 
 
