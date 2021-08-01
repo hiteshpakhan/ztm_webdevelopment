@@ -270,31 +270,36 @@ steAttribute is just like the getAttribute but we can change the attribute by th
 * it is quite useful to turn and off somthing
 * it can also used when you made a mistake you can turn it back by toggle it
 
+        FIRST:-
         console log:-
         document.querySelector("h3").classList.add("done");        //here we assign the class "done" to the tag
         document.querySelector("h3").classList.toggle("done");     //and here we toggle this class means we undo this assignment
         
         output:-
         false                                                      
-        -----------------------
+        
+        SECOND:-
         console log:-
         document.querySelector("h3").classList.toggle("done");
         
         output:-
         true
-        ------------------------
+        
+        THIRD:-
         console log:-
         document.querySelector("h3").classList.toggle("done");
         
         output:-
         false
-        -------------------------
+        
+        FOURTH:-
         console log:-
         document.querySelector("h3").classList.toggle("done");
         
         output:-
         true
-        -------------------------
+        
+        FIFTH:-
         console log:-
         document.querySelector("h3").classList.toggle("done");
         
@@ -305,6 +310,7 @@ steAttribute is just like the getAttribute but we can change the attribute by th
 -------
 1- innerHTML
 ------------
+* by this we can change the content of the html tag
 
         console log:-
         document.querySelectorAll("li")[5].innerHTML="<strong> new text </strong>";
@@ -312,27 +318,25 @@ steAttribute is just like the getAttribute but we can change the attribute by th
         output:-
         "<strong> new text </strong>"     //it will changet the content os the html tag
 
+2- parentElement
+----------------
+* by this we can access the parent element of any element
 
+        console log:-
+        document.querySelector("ul");
+        document.querySelector("ul").parentElement;
 
+        output:-
+        <ul>​…​</ul>​        //normal selector
+        <body>​…​</body>​    //selector with parent element   
 
+3- children
+-----------
+* by this we can access the children element of any element
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        console log:-
+        document.querySelector("ul");
+        document.querySelector("ul").children[3];
+        
+        output:-
+        <li>​…​</li>​
