@@ -235,7 +235,42 @@ Changing Styles
         document.querySelector("h2").classList;
 
         output:-
-        DOMTokenList(4) ["cn1", "cn2", "cn3", "cn4", value: "cn1 cn2 cn3 cn4"]
+        ["cn1", "cn2", "cn3", "cn4", value: "cn1 cn2 cn3 cn4"]    //as you can see it will show all the class name to us
+
+4- classList.add()
+----------------
+* it is used to add the class
+
+        console log:-
+        document.querySelector("h2").classList.add("coolTitle");         //it will add the new class
+        document.querySelector("h2").classList;                          //it will show the list of classes
+
+        output:-
+        undefined    
+        ["cn1", "cn2", "cn3", "cn4", "coolTitle", value: "cn1 cn2 cn3 cn4 coolTitle"]            
+
+* as you can see that the new class coolTitle has been added
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
