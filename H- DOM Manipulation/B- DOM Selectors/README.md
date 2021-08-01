@@ -264,6 +264,44 @@ Changing Styles
 
 * as you can see that the class named "cn1" is removed from the list
 
+6- classList.toggle
+-------------------
+* it is used to toggle the assign element
+* it is quite useful to turn and off somthing
+* it can also used when you made a mistake you can turn it back by toggle it
+
+        console log:-
+        document.querySelector("h3").classList.add("done");        //here we assign the class "done" to the tag
+        document.querySelector("h3").classList.toggle("done");     //and here we toggle this class means we undo this assignment
+        
+        output:-
+        false                                                      
+        -----------------------
+        console log:-
+        document.querySelector("h3").classList.toggle("done");
+        
+        output:-
+        true
+        ------------------------
+        console log:-
+        document.querySelector("h3").classList.toggle("done");
+        
+        output:-
+        false
+        -------------------------
+        console log:-
+        document.querySelector("h3").classList.toggle("done");
+        
+        output:-
+        true
+        -------------------------
+        console log:-
+        document.querySelector("h3").classList.toggle("done");
+        
+        output:-
+        false
+        
+
 
 
 
