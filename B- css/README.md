@@ -21,6 +21,7 @@ style.css
         background
         +
 
+-----------------------------------------
 style2.css
 ----------
 
@@ -29,6 +30,7 @@ style2.css
         text-decoration
         font-size
 
+------------------------------------------
 style3.css
 ----------
 
