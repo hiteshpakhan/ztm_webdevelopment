@@ -40,7 +40,18 @@ style3.css
         font-family
         text-transform
         font-style
-        
+
+------------------------------------------
+index.html
+----------
+
+        <link>
+        rel="stylesheet"
+        style=""
+        <section>
+        class=""
+        id=""
+        <span>
 
 
 
