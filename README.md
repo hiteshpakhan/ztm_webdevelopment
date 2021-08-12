@@ -11,16 +11,7 @@ INDEX :-
 
 4) BOOTSTRAP
 
-        BOOTSTRAP
-        BOOTSTRAP GRID
-        LANDING PAGE
-        ANIMATE.CSS
-
 5) GRID AND LAYOUT
-
-        CSS GRID
-        CSS LAYOUT
-        CSS LAYOUT 2
 
 6) JAVASCRIPT PART-1
 
