@@ -1,5 +1,5 @@
-var item_name = document.getElementById("user_input");
-var btn = document.getElementById("enter");
+var item_name = document.getElementById("id_input");
+var btn = document.getElementById("id_enter");
 
 btn.addEventListener("click",function(){
     console.log("click is working");
