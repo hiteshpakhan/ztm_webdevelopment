@@ -4,6 +4,8 @@ createElement()
 
 appendChild()
 -------------
+        appendChild is used to add any "text" or "html tag" inside other html tag
+
 
 createTextNode()
 ----------------
