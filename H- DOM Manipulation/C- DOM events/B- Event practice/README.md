@@ -29,6 +29,12 @@ it is used to take the value
 -------
 it is used to count the length 
 
+keypress 
+--------
+
+        keypress is the one of the event that meaqns the action that perform after we press any key on the keybord
+        each keypress has the unique keyCode 
+
 event.keyCode
 -------------
 
@@ -39,11 +45,7 @@ event.keyCode
 
         remember that the middle 'C' in the keyCode is capital
 
-keypress 
---------
 
-        keypress is the one of the event that meaqns the action that perform after we press any key on the keybord
-        each keypress has the unique keyCode 
 
 
 
