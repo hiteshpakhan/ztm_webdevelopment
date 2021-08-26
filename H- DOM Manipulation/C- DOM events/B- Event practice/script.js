@@ -11,6 +11,9 @@ button.addEventListener("click", function(){   //this function will exeacute if 
     }
 });
 
+// it can also be added by clicking the enter button on keybord 
+// for that we have to use the following programe
+
 
 
 
