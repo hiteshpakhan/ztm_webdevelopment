@@ -42,7 +42,8 @@ event.keyCode
 keypress 
 --------
 
-        keypress is the one of the event
+        keypress is the one of the event that meaqns the action that perform after we press any key on the keybord
+        each keypress has the unique keyCode 
 
 
 
