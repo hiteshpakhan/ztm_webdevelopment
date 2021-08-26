@@ -17,6 +17,12 @@ createTextNode()
 
         here the "hello" is the node text that between the tags
 
+.value
+------
+it is used to take the value 
 
+.length 
+-------
+it is used to count the length 
 
 
