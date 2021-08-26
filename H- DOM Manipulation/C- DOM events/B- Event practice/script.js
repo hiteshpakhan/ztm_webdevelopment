@@ -9,7 +9,7 @@ button.addEventListener("click", function(){   //this function will exeacute if 
         ul.appendChild(li);   //this will make li the child of ul
         input.value = "";   //this will make the input box empty
     }
-} )
+});
 
 
 
