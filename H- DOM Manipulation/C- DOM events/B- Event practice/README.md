@@ -17,6 +17,10 @@ createTextNode()
 
         here the "hello" is the node text that between the tags
 
+click
+-----
+        click is one of the event that means the action that occore when you click the pointer
+
 .value
 ------
 it is used to take the value 
@@ -35,7 +39,10 @@ event.keyCode
 
         remember that the middle 'C' in the keyCode is capital
 
+keypress 
+--------
 
+        keypress is the one of the event
 
 
 
