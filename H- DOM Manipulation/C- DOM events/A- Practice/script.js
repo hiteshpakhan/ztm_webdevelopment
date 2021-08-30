@@ -9,7 +9,7 @@ document.querySelector("input").click();   //it will on the click
 document.querySelector("input").click();   //it will off the click
 // -----
 
-document.getElementsByTagName("li")[0].style.color="red";
+document.getElementsByTagName("li")[0].style.color="red";   //it will set the color red of the frist li element  
 // -----
 
 var countitem = document.getElementsByTagName("li").length;
