@@ -1,7 +1,7 @@
 var inside = document.querySelector("h1").innerHTML;
 
 if(inside === "Hello Everyone"){
-    document.querySelector("h1").innerHTML = "👇";
+    document.querySelector("h1").innerHTML = "👇";    
 }
 // -----
 
