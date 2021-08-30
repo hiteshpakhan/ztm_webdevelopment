@@ -5,7 +5,8 @@ if(inside === "Hello Everyone"){
 }
 // -----
 
-document.querySelector("input").click();
+document.querySelector("input").click();   //it will on the click 
+document.querySelector("input").click();   //it will off the click
 // -----
 
 document.getElementsByTagName("li")[0].style.color="red";
