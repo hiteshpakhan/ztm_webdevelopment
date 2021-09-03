@@ -14,6 +14,7 @@ CSS GRADIANT COLOR
         background-image: linear-gradient(to right, red , yellow);
 
 this is the css property that can generated the gradient color
+if you want it to the hole background you shoud add it to the body element inside the css
 
 
 
