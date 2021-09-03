@@ -9,7 +9,7 @@ CSS GRADIANT COLOR
 ------------------
 
         syntax:-
-        background-image: linear-gradient(direction, color1, color2,..)
+        background-image: linear-gradient(direction, starting_color, ending_color,..)
         example:-
         background-image: linear-gradient(to right, red , yellow);
 
