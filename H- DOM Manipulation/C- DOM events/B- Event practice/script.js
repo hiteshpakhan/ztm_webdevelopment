@@ -24,8 +24,21 @@ input.addEventListener("keypress", function(event){   //this function will exeac
 });
 
 
+//the upper code is alittle bit lengthy we can short this vode by using functions
+// for example:
 
 
+function a(){
+    return input.value.length;
+}
+button.addEventListener("click", function(){
+    if (a() > 0){
+        var li = document.createElement("li");   
+        li.appendChild(document.createTextNode(input.value));  
+        ul.appendChild(li);    
+        input.value = ""; 
+    }
+})
 
 
 
