@@ -30,22 +30,24 @@ input.addEventListener("keypress", function(event){   //this function will exeac
 
 function a(){
     return input.value.length;
-}
+};
+
+function b(){
+    var li = document.createElement("li");   
+    li.appendChild(document.createTextNode(input.value));  
+    ul.appendChild(li);    
+    input.value = ""; 
+};
+
 button.addEventListener("click", function(){
     if (a() > 0){
-        var li = document.createElement("li");   
-        li.appendChild(document.createTextNode(input.value));  
-        ul.appendChild(li);    
-        input.value = ""; 
+        b();
     }
 });
 
 input.addEventListener("keypress", function(event){   
     if(a() > 0 && event.keyCode === 13){   
-        var li = document.createElement("li");  
-        li.appendChild(document.createTextNode(input.value)); 
-        ul.appendChild(li);  
-        input.value = "";   
+        b();
     }
 });
 
