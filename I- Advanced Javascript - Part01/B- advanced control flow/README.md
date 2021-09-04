@@ -9,5 +9,6 @@ JAVASCRIPT CONDITIONALS
 we already see the first three -if, -else, and -else if
 and now we are going to see the -ternary operator and -switch
 
-
+ternary operator 
+----------
 
