@@ -19,7 +19,7 @@ it is just like the if else statement and it is a bit easier to implement than t
     if the condition true do expression1 
     if the condition false do expression2
 
-example
+example-
     
     inside the console.log:-
     function a(bool){
