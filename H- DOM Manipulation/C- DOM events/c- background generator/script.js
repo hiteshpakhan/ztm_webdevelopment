@@ -39,7 +39,7 @@ function a(){
 	+ color2.value 
 	+ ")";
 
-    css.textContent = body.style.background + ";"    // textContent is just like the "innerhtml" or "addTextnode" and here the css is the variable that we define earlyer
+    css.textContent = body.style.background + ";"    // textContent is just like the "innerhtml" or "addTextNode" and here the css is the variable that we define earlyer
 }
 
 color1.addEventListener("input", a);
