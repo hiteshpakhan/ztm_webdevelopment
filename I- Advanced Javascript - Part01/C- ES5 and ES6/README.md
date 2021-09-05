@@ -129,3 +129,22 @@ let is just like the var (variable) but it has some different features
     output:-
     "yes my name is hitesh"
     "pakhan"
+
+.
+    
+    example2:-
+    const a = "hitesh";
+    const b = true;
+    const c = {};
+    const obj_d = {
+        a,
+        b,
+        c
+    };
+    obj_d.a;
+    obj_d.b;
+    obj_d.c;
+
+
+
+
