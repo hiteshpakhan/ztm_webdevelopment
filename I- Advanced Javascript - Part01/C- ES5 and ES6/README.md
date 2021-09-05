@@ -77,6 +77,34 @@ let is just like the var (variable) but it has some different features
 
     
 # DESTRUCTOR
+    const person = {
+        firstName : "John",
+        lastName  : "Doe",
+        age       : 50,
+        eyeColor  : "blue"
+    };
+    firstName;   //it will give an error because the right way to print it is :-   person.firstName;
+    
+    output:-
+    Uncaught ReferenceError: aa is not defined
 
+    but if we had to print the object value property we have to use the distructor
+    for example:-
+    const person = {
+    firstName : "John",
+    lastName  : "Doe",
+    age       : 50,
+    eyeColor  : "blue"
+    };
+    const { firstName, lastName, age, eyeColor } = person;   //it is the destructor by the help of these you can print the propertyes just like the variables
+    firstName;
+    lastName;
+    age;
+    eyeColor;
 
+    output:-
+    John 
+    Doe 
+    50 
+    blue
 
