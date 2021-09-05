@@ -18,7 +18,13 @@ now we are going to see the -let and -const
 
     const example:-
 
-    const name = "hitesh";  //you assign the name as hitesh now it can not change in that programe 
+    const z = "hitesh";  //you assign the name as hitesh now it can not change in that programe 
+    z="pakhan";
+
+    output:-
+    Uncaught TypeError: Assignment to constant variable.    //it will give the error because the const can not be changed
+    at <anonymous>:2:2
+
 
 
 # let
