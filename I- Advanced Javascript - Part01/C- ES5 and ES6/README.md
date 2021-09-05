@@ -24,7 +24,23 @@ now we are going to see the -let and -const
     output:-
     Uncaught TypeError: Assignment to constant variable.    //it will give the error because the const can not be changed
     at <anonymous>:2:2
+    --------------------------
 
+    but if iot is an object you can not reassign the object values but you can assign or change the propertyes of that object values
+    for example:-
+    const obj = {
+        player : "bobby",
+        experience : 100,
+        wizardlevel : false
+    }
+    obj.wizardlevel = true;         //it is the property of the value of the const object it will changed
+    console.log(obj.wizardlevel);   
+    obj = 5;                        //it is the const object it will give an error
+
+    output:-
+    true                                                    //it is the ouytput of the obj.wizardlevevl
+    Uncaught TypeError: Assignment to constant variable.  //and it is the error because we try to reassign the const obj
+    at <anonymous>:8:9
 
 
 # let
