@@ -34,3 +34,51 @@ example-
     "this is true condition"
     "not valid"
 
+SWITCH
+------
+syntax:-
+
+    switch(value){
+        case "option_value1":
+            statement1;
+            break;
+        case "option_value2":
+            statement2;
+            break;
+        .
+        .
+        .
+        default:
+            statementn;
+    }
+
+example:-
+
+    function b(direction){
+        var c;
+        switch(direction){
+            case "right":
+                c="aaaaaaa";
+                break;
+            case "left":
+                c="bbbbbbb"
+                break;
+            case "back":
+                c="ccccccc";
+                break;
+            default:
+                c="direction not valid";
+        }
+        return c;
+    }
+    b("right");
+    output:-
+    "aaaaaaa"
+
+
+
+
+
+
+
+
