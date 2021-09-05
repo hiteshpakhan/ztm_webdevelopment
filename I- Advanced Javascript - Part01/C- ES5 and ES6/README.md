@@ -108,3 +108,24 @@ let is just like the var (variable) but it has some different features
     50 
     blue
 
+# object properties
+
+    example:-
+    var name;
+    let a = 50;
+    if (a === 50){
+        name = "hitesh";
+    }else{
+        name="h_i_t_e_s_h"
+    }
+    const obj = {
+        [name] : "yes my name is hitesh",
+        ["sur" + "name"] : "pakhan",
+        [2+3] : "dont care"
+    }
+    obj.hitesh;
+    obj.surname;
+
+    output:-
+    "yes my name is hitesh"
+    "pakhan"
