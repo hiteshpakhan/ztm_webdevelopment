@@ -1,3 +1,7 @@
+# ES5/ES6/ES7 
+    it is called as the ECMAScript 5,6,7 are some of its versions 
+
+
 JAVASCRIPT VARIABLES
 -----------------
 * var
