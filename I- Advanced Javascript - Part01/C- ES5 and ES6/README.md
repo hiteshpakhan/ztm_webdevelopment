@@ -168,10 +168,11 @@ when ever you use the default arguments it will use them when there no values pa
         return `hello ${name} you seem to be ${age-10} . what a lovely ${pet} you have`;
     }
     a();  //i did not pass any values
+    a("hitesh",40,dog);
 
     output:-
-    "hello  you seem to be 20 . what a lovely cat you have"     //now as you can see that it print the default values
-
+    "hello  you seem to be 20 . what a lovely cat you have"         //now as you can see that it print the default values
+    "hello hitesh you seem to be 30 . what a lovely dog you have"   //here it takes those values that pass as an arguments
 
 
 
