@@ -162,7 +162,11 @@ let is just like the var (variable) but it has some different features
     "Hello sally you seem to be doing 24 . what a lovely horse you have"
 
 # default arguments
+when ever you use the default arguments it will use them when there no values pass they'll be the default 
 
+    function a(name="", age=30, pet="cat"){                //this is the default arguments 
+        return `Hello $(name) you seem to be $(age-10). what a lovely $(pet) you have`;
+    }
 
 
 
