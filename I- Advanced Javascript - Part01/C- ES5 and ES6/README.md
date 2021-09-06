@@ -153,12 +153,45 @@ let is just like the var (variable) but it has some different features
     const age = 34;
     const pet = horse;
     const a = "Hello " + name + " you seem to be doing " + age-10 +". what a lovely " + pet + "you have";
-    const b = `Hello ${name} you seem to be doing ${age-10} . what a lovely ${pet} you have `;
+    const b = `Hello ${name} you seem to be doing ${age-10} . what a lovely ${pet} you have`;
     a;
     b;
 
     output:-
     "Hello sally you seem to be doing 34. what a lovely horseyou have"
-    "Hello sally you seem to be doing 24 . what a lovely horse you have "
+    "Hello sally you seem to be doing 24 . what a lovely horse you have"
+
+# default arguments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
