@@ -175,6 +175,37 @@ when ever you use the default arguments it will use them when there no values pa
     "hello hitesh you seem to be 30 . what a lovely dog you have"   //here it takes those values that pass as an arguments
 
 
+# symbol
+JAVASCRIPT TYPES
+
+1. Number 
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new in ECMAScript 6)
+7. Object
+we seen all of these types in javascript escape the one no 6 symbol
+
+    example:-
+    let a = Symbol();
+    let b = Symbol("foo");
+    let c = Symbol("foo");
+    a;
+    b;
+    c;
+    b === c;             //it will give false because symboals can not be compair
+
+    output:-
+    Symbol()
+    Symbol(foo)
+    Symbol(foo)
+    false 
+
+# arrow function
+
+
+
 
 
 
