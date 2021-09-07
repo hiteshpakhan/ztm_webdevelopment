@@ -1,4 +1,4 @@
-# ADVANCED FUNCTION 
+# ADVANCED FUNCTION (CLOSURES) 
 
     function first(){
         var greet = "hi";
@@ -26,7 +26,7 @@
 
 -----------------------------------
 
-# imp
+# imp currying
 
     const cm = (a) => (b) => a * b;      
     const mul = cm(3);        //here the three is the value of a
