@@ -13,10 +13,10 @@ now we are going to see the -let and -const
 
 # const
 
-    CONST:
-        const is a value that can never change or reassign in the entire programe
+const is a value that can never change or reassign in the entire expression
+but it can chang outside the const
 
-    const example:-
+const example:-
 
     const z = "hitesh";  //you assign the name as hitesh now it can not change in that programe 
     z="pakhan";
@@ -24,10 +24,11 @@ now we are going to see the -let and -const
     output:-
     Uncaught TypeError: Assignment to constant variable.    //it will give the error because the const can not be changed
     at <anonymous>:2:2
-    --------------------------
 
-    but if iot is an object you can not reassign the object values but you can assign or change the propertyes of that object values
-    for example:-
+but if iot is an object you can not reassign the object values but you can assign or change the propertyes of that object values
+
+for example:-
+    
     const obj = {
         player : "bobby",
         experience : 100,
@@ -42,6 +43,35 @@ now we are going to see the -let and -const
     Uncaught TypeError: Assignment to constant variable.  //and it is the error because we try to reassign the const obj
     at <anonymous>:8:9
 
+best example:-
+    
+    var a = () => {
+    var b = "hi";
+    console.log(b);
+    }
+    a();
+    var b = "hi there";
+    console.log(b);
+
+    output:-
+    it will give an error
+    Uncaught SyntaxError: Identifier 'b' has already
+
+but if you use the const here
+
+for example:-
+
+    var a = () => {
+        const b = "hi";
+        console.log(b);
+    }
+    a();
+    const b = "hi there";
+    console.log(b);
+
+    output:-
+    hi
+    hi there
 
 # let
 
