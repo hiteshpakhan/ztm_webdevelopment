@@ -24,12 +24,10 @@
     const new_fun = first();
     new_fun();                 
 
+-----------------------------------
 
+# imp
 
-
-
-
-
-
-
-
+    const cm = (a) => (b) => a * b;
+    const mul = cm(3);        //here the three is the value of a
+    mul(4);                   //and 4become the value of b
