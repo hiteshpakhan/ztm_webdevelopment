@@ -206,7 +206,7 @@ we seen all of these types in javascript escape the one no 6 symbol
 
     by this the function coud be write in the different way but it works the same
     
-    syntax:- const fun_name = (fun_values) => operation-work
+    syntax:- const fun_name = (fun_values/or_empty) => operation-work
 
 .
 
