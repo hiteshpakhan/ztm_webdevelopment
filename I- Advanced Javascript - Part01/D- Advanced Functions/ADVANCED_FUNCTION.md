@@ -1,3 +1,4 @@
+this part can blow your mind so stay focus
 # ADVANCED FUNCTION (CLOSURES) 
 
     function first(){
@@ -41,6 +42,7 @@
 
 * now we have the function that always multiply the given value by 3
 * you can use this when you have to repit specific execution
+-------------------
 
 
 
