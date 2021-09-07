@@ -39,7 +39,8 @@
     30
     186
 
-now we have the function that always multiply the given value by 3
+* now we have the function that always multiply the given value by 3
+* you can use this when you have to repit specific execution
 
 
 
