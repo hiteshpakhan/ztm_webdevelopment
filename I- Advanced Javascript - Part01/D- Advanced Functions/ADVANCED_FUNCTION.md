@@ -25,9 +25,10 @@ this part can blow your mind so stay focus
     const new_fun = first();
     new_fun();                 
 
------------------------------------
+------------------
 
-# imp currying
+# imp CURRYING
+currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time    
 
     const cm = (a) => (b) => a * b;      
     const mul = cm(3);        //here the three is the value of a
@@ -43,6 +44,8 @@ this part can blow your mind so stay focus
 * now we have the function that always multiply the given value by 3
 * you can use this when you have to repit specific execution
 -------------------
+# COMPOSE
+
 
 
 
