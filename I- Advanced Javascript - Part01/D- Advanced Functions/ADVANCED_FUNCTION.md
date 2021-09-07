@@ -1,4 +1,4 @@
-EXAMPLE:-
+# ADVANCED FUNCTION 
 
     function first(){
         var greet = "hi";
