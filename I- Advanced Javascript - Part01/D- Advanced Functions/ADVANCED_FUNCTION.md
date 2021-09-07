@@ -10,11 +10,10 @@
     var new_fun = first();
     new_fun();
 
-    if we had to convert this example through the arrow function
-    conversion:-
+*if we had to convert this example through the arrow function
 
-    const 
-
+    the conversion will be:-
+           
 
 
 
