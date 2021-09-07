@@ -206,7 +206,8 @@ we seen all of these types in javascript escape the one no 6 symbol
 
     by this the function coud be write in the different way but it works the same
     
-    syntax:- const fun_name = (fun_values/or_empty) => operation-work
+    syntax:- 
+    const fun_name = (fun_values/or_empty) => {operation-work}
 
 .
 
@@ -216,12 +217,13 @@ we seen all of these types in javascript escape the one no 6 symbol
     }
 
     const add2 = (a, b) => a + b;   
-    add(4, 2);
-    add2(4, 2);
+
+    add(4, 2); //it will give the value of first function
+    add2(4, 2); //it will give the value of the second function
      
     output:-
-    6
-    6
+    6              //first
+    6              //second
 
 
 
