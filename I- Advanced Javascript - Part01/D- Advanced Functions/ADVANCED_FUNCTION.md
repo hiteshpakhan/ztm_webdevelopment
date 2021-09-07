@@ -31,3 +31,18 @@
     const cm = (a) => (b) => a * b;
     const mul = cm(3);        //here the three is the value of a
     mul(4);                   //and 4become the value of b
+    mul(10);
+    mul(62);
+
+    output:-
+    12
+    30
+    186
+
+
+
+
+
+
+
+
