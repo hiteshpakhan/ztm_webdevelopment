@@ -1,5 +1,5 @@
 # ES5/ES6/ES7 
-    it is called as the ECMAScript 5,6,7 are some of its versions 
+    it is called as the ECMAScript. 5,6,7 are versions of javascript
 
 
 JAVASCRIPT VARIABLES
@@ -118,8 +118,10 @@ let is just like the var (variable) but it has some different features
     output:-
     Uncaught ReferenceError: aa is not defined
 
-    but if we had to print the object value property we have to use the distructor
-    for example:-
+but if we had to print the object value property we have to use the distructor
+
+for example:-
+
     const person = {
     firstName : "John",
     lastName  : "Doe",
