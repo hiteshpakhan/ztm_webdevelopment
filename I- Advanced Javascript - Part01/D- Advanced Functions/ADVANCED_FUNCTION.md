@@ -3,7 +3,7 @@
     function first(){
         var greet = "hi";
         function second(){
-            alert("greet");
+            alert(greet);
         }
         return second;
     }
@@ -13,7 +13,16 @@
 *if we had to convert this example through the arrow function
 
     the conversion will be:-
-           
+
+    const first = () => {
+        const greet = "hi";
+        const second = () => {
+            alert(greet);
+        }
+        return second();
+    }       
+    const new_fun = first();
+    new_fun();                 
 
 
 
