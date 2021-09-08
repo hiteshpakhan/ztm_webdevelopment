@@ -48,10 +48,9 @@ currying is the process of converting a function that takes multiple arguments i
 # COMPOSE
 act of putting of two function together to form a third function where the output of one function is the input of other
 
-    //const compose = (a, b) => (a) => f = (g = (a));
-    const compose = (a, b) => (a) => f(g(a)); 
-    const sum = (num) => num+1;
-    compose(sum, sum)(5);
+    const compose = (f, g) => (a) => f(g(a));  //f and g are the function here the a=5, f=sum, g=sum
+    const sum = (num) => num+1;                
+    compose(sum, sum)(5);                      //it will give the a=5, f=sum, g=sum in upper statement
 
 
 
