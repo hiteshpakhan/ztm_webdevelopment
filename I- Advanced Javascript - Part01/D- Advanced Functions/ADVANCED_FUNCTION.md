@@ -44,7 +44,17 @@ currying is the process of converting a function that takes multiple arguments i
 * now we have the function that always multiply the given value by 3
 * you can use this when you have to repit specific execution
 -------------------
+
 # COMPOSE
+act of putting of two function together to form a third function where the output of one function is the input of other
+
+
+
+
+
+
+
+
 
 
 
