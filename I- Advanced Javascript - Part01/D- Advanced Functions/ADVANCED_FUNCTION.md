@@ -28,7 +28,8 @@ this part can blow your mind so stay focus
 ------------------
 
 # imp CURRYING
-currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time    
+currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time   
+in short we are converting the function that takes multiple value into the function that takes single value 
 
     const cm = (a) => (b) => a * b;      
     const mul = cm(3);        //here the three is the value of a
