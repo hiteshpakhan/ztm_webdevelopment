@@ -11,9 +11,9 @@ this part can blow your mind so stay focus
     var new_fun = first();
     new_fun();
 
-*if we had to convert this example through the arrow function
+* if we had to convert this example through the arrow function
 
-    the conversion will be:-
+the conversion will be:-
 
     const first = () => {
         const greet = "hi";
@@ -28,8 +28,14 @@ this part can blow your mind so stay focus
 ------------------
 
 # imp CURRYING
-currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time   
-in short we are converting the function that takes multiple value into the function that takes single value 
+* currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time   
+* in short we are converting the function that takes multiple value into the function that takes single value 
+
+normal function:-
+
+    const multiply = (a,b) => a * b;
+
+converted intocurrying function:-
 
     const cm = (a) => (b) => a * b;      
     const mul = cm(3);        //here the three is the value of a
