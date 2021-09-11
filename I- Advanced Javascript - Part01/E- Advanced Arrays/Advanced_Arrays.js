@@ -26,7 +26,7 @@
     // [2, 4, 6, 8, 10]      //the same output as forEach but with map we dont have to assign the values sepreatly
 
 
-// filter
+// filter      //it is used to filter the array
 
     const arr = [1,2,3,4,5];
     const newarr = arr.filter(num => {
@@ -35,4 +35,4 @@
     console.log(newarr);
 
     // output:-
-    // [3, 4, 5]
+    // [3, 4, 5]  
