@@ -38,7 +38,7 @@
     // [3, 4, 5]  
 
 
-// reduce 
+// reduce    //its ammazing 
     
     const arr = [1,2,3,4,5];
     const newarr = arr.reduce((a, num) => {   //a is the accumulator here   //accumulator is where we can store the information that happen in the body of function
