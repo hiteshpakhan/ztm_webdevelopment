@@ -22,4 +22,6 @@
     console.log(newarr);
 
     // output:-
-    // [2, 4, 6, 8, 10]      //the output is the same but with map we dont have to assign the values sepreatly
+    // [2, 4, 6, 8, 10]      //the same output but with map we dont have to assign the values sepreatly
+
+    
