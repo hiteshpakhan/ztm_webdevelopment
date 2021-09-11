@@ -44,4 +44,4 @@
     const newarr = arr.reduce((a, num) => {   //a is the accumulator here   //accumulator is where we can store the information that happen in the body of function
         return a + num; //accumulator always store there privious values
     },0);   //in reduce you have to define the accumulator start value after the function  //we assign the accumulator a value 0
-    console.log(newarr);
+    console.log(newarr);   //it will give you addition of all the numbers
