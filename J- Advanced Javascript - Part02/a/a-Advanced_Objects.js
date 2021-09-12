@@ -42,3 +42,10 @@ object3.value;        //10
 
 
 // # instantiation type
+
+
+
+
+
+
+
