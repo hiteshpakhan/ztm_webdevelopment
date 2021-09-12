@@ -40,8 +40,87 @@ object3.value;        //10
     o.a();
     // op:- {a: ƒ}       //now as you can see as we are in the second object it shows the loaction of the second object that we are in 
 
+// --------------------------------------------------------------------
 
 // # instantiation type
+class C1 {
+    constructor(n , type){
+        this.n=n;
+        this.type=type;
+    }
+    introduce(){
+        console.log("hi i am "+this.n+" i am a "+this.type);
+    }
+}
+
+class Wizard extends C1 {    //wizard extends whatware player has
+    constructor(n, type){     //
+        super(n, type);
+    }
+    play(){
+        console.log("i am "+this.type);
+    }
+}
+
+const wizard1 = new Wizard("sally","healer");
+const wizard2 = new Wizard("shawn", "elf"); 
+
+wizard1.play();
+// op-
+//  i am healer
+
+wizard2.play()
+//po-
+//   i am elf
+
+wizard2.introduce();
+// op-
+//   hi i am shawn i am a elf
+
+wizard1.introduce();
+//op-
+//   hi i am sally i am a healer
+
+
+// # another example:-
+class C1 {
+    constructor(n , type){
+        console.log("C1"+this);
+        this.n=n;
+        this.type=type;
+    }
+    introduce(){
+        console.log("hi i am "+this.n+" i am a "+this.type);
+    }
+}
+
+class Wizard extends C1 {    //wizard extends whatware player has
+    constructor(n, type){ 
+        super(n, type);             //you have to shure you call super at the top like this 
+        console.log("wizard"+this);
+    }
+    play(){
+        console.log("i am "+this.type);
+    }
+}
+
+const wizard1 = new Wizard("sally","healer");
+
+// op-
+// C1[object Object]
+// wizard[object Object]      
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
