@@ -42,7 +42,7 @@ object3.value;        //10
 
 // --------------------------------------------------------------------
 
-// # instantiation type
+// # instantiation type      //this consept i can not understand so repit it again tommaro
 class C1 {
     constructor(n , type){
         this.n=n;
@@ -82,7 +82,7 @@ wizard1.introduce();
 //   hi i am sally i am a healer
 
 
-// # another example:-
+// another example:-
 class C1 {
     constructor(n , type){
         console.log("C1"+this);
