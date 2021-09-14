@@ -97,6 +97,22 @@ console.log(obj2);
 //but they can not copy the object inside the object
 
 
+let obj1 = {
+    a: "a",
+    b: "b",
+    c: {
+        deep: "try to copy me"
+    }
+};
+let obj2 = JSON.parse(JSON.stringify(obj1));   //it is deep clone and it coud affect your performance
+obj1.c = "c has been changed";
+console.log(obj1);
+// op- {a: 'a', b: 'b', c: 'c has been changed'}
+console.log(obj2);
+// op- {a: 'a', b: 'b', c: {…}}
+
+//it can copy object and their objects too 
+
 
 
 
