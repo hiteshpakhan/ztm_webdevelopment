@@ -79,8 +79,20 @@ Object.entries(obj).forEach(value => {
 // ['username2', 'Mr.grinch']
 
 
+//----------------------------------------------------------------
+// so how we can used these keys values entries in real life senarios examples:-
 
+let obj = {
+    username0: "santa",
+    username1: "redolf",
+    username2: "Mr.grinch"
+}
 
+Object.entries(obj).map(value=> {
+    return value[1] + value[0].replace("username", "");  //replace "username" string by empty string 
+})
+// op-
+// ['santa0', 'redolf1', 'Mr.grinch2']  //and noe we have new usernames
 
 
 
