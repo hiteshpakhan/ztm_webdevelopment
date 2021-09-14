@@ -56,11 +56,18 @@ console.log(d);
 // but when you have to copy object or array for some reason 
 // you can do as follows:-
 
+//if you want to copy an object
+var c = [1,2,3,4,5];
+var d = [].concat(c);   //concat push all the element inside of c into the array d so it become 2 dofferent arrays
+d.push(621345);
+console.log(c);
+// op- [1, 2, 3, 4, 5]
+console.log(d);
+// op- [1, 2, 3, 4, 5, 621345]    //noe the both array has the seprate memory location so it only affect the array d
 
 
 
-
-
+// # now if you have to copy the object
 
 
 
