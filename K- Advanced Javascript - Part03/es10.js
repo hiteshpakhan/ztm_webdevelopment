@@ -29,8 +29,16 @@ arr.flat(2);     //if we put the 2 inside the brackets
 // and it make array flat for you
 
 // another example:-
+const jp = [["a","b"],"c","d",["e","f"],[[[["g"]]],"h"],["i","j"]];
+jp.flat(50);        //we can give big number if we want to it has no problem
+// op-
+// ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']   
 
-
+//another example:-
+const entries = ["bob","sally",,,,,,"candy"];
+entries.flat();
+// op-
+['bob', 'sally', 'candy']
 
 
 
