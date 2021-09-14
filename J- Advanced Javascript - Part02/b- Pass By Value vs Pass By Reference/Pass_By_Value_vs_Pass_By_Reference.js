@@ -11,6 +11,7 @@ console.log(a);
 console.log(b);
 //op-6
 
+// -------------------------------------------------------------------------
 
 // # pass by reference  
 // (objects are the best example of the pass by reference)
@@ -36,6 +37,27 @@ console.log(obj2);
 // {name: 'name1', pass: 'new pass'}
 //as you can see we made changes in the object 2 but it changes the both object values
 //and this is because of the pass by reference
+
+
+var c = [1,2,3,4,5];
+var d = c;
+d.push(621345);
+console.log(c);
+[1, 2, 3, 4, 5, 621345]
+console.log(d);
+[1, 2, 3, 4, 5, 621345]
+//as you can see the both arrays are changed because of pass by the reference
+
+
+// imp
+// its vary important feature (pass by reference) of the javascript
+// it can be used when we want to make same object or an array but we domt want to copy it so that it cant be access more memory
+
+// but when you have to copy object or array for some reason 
+// you can do as follows:-
+
+
+
 
 
 
