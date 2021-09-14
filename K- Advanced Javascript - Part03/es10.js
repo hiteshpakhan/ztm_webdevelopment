@@ -38,8 +38,11 @@ jp.flat(50);        //we can give big number if we want to it has no problem
 const entries = ["bob","sally",,,,,,"candy"];
 entries.flat();
 // op-
-['bob', 'sally', 'candy']
+// ['bob', 'sally', 'candy']
 
+//-----------------------------------------------------------------
+
+// flatMap()
 
 
 
