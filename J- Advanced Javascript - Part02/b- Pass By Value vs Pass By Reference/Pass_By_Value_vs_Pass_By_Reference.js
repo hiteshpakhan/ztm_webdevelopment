@@ -69,10 +69,32 @@ console.log(d);
 
 // # now if you have to copy the object
 
+// method 1
+let obj1 = {a: "a", b: "b", c: "c"};
+let obj2 = Object.assign({}, obj1);
+obj1.c = "c has been changed";
+console.log(obj1);
+// op- {a: 'a', b: 'b', c: 'c has been changed'}
+console.log(obj2);
+// op- {a: 'a', b: 'b', c: 'c'}       //as you can see only one object has been changed
 
 
 
+// method 2
+let obj1 = {a: "a", b: "b", c: "c"};
+let obj2 = {...obj1};
+obj1.c = "c has been changed";
+console.log(obj1);
+// op- {a: 'a', b: 'b', c: 'c has been changed'}
+console.log(obj2);
+// op- {a: 'a', b: 'b', c: 'c'}      //as you can see we get same output but different method
 
+
+//------------------------------------------------------------------------
+
+
+//the upper methods will help you to copy array and object 
+//but they can not copy the object inside the object
 
 
 
