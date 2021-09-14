@@ -109,22 +109,3 @@ const wizard1 = new Wizard("sally","healer");
 // op-
 // C1[object Object]
 // wizard[object Object]      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

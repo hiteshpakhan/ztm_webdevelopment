@@ -112,35 +112,3 @@ console.log(obj2);
 // op- {a: 'a', b: 'b', c: {…}}
 
 //it can copy object and their objects too 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
