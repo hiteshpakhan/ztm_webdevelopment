@@ -1,4 +1,4 @@
-for react you have to first download the nodejs , the nodejs also comes with the npm 
+for react, you have to first download the nodejs , the nodejs also comes with the npm 
 
 nodejs is just a javascript engin that helps you to run the javascript files outside the browser
 
