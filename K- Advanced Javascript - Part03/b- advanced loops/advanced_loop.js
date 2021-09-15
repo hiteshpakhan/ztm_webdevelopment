@@ -77,3 +77,4 @@ for (item2 in basket){
 // 0
 // 1
 // 2     //it will give us the indexes because it will use the array like the objects and try to catch the propertyes of the object 
+yuayudcg
