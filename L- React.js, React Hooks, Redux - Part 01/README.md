@@ -10,14 +10,18 @@
 
 * then open the ( command prompt / terminal )
 
-        $ npx create-react-app my-app
+        $ npx create-react-app my-app     
         $ cd my-app
         $ npm start
+
+* npx is a package runner tool
 
 * and to stop or exit through running app  
 
         $ ctrl + c
         $ y
+
+
 
 
 
