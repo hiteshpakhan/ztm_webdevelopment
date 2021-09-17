@@ -1,0 +1,1 @@
+// # instantiation type of advanced object
