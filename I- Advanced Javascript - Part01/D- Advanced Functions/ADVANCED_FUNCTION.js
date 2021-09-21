@@ -1,20 +1,6 @@
 // this part can blow your mind so stay focus
 // # ADVANCED FUNCTION (CLOSURES) 
 
-    function first(){
-        var greet = "hi";
-        function second(){
-            alert(greet);
-        }
-        return second;
-    }
-    var new_fun = first();
-    new_fun();
-
-// * if we had to convert this example through the arrow function
-
-// the conversion will be:-
-
     const first = () => {
         const greet = "hi";
         const second = () => {
@@ -23,7 +9,12 @@
         return second();
     }       
     const new_fun = first();
-    new_fun();                 
+    new_fun();      
+    
+    // children always has access to the parent scope but parent doesnot has access to the child scope  
+
+
+
 
 // ------------------
 
