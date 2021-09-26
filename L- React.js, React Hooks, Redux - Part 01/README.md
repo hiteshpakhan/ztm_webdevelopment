@@ -20,11 +20,3 @@
 
         $ ctrl + c
         $ y
-
-
-
-
-
-
-
-this is just the
