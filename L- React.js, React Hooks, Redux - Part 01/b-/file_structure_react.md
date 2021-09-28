@@ -1,16 +1,16 @@
 * react has following folders and files: 
 
-    > node_modules          -folders
+    > node_modules          -(folders)
 
-    > public                -folders
+    > public                -(folders)
 
-    > src                   -folders
+    > src                   -(folders)
 
-    .gitignore              -files
+    .gitignore              -(files)
 
-    package-lock.json       -files
+    package-lock.json       -(files)
 
-    package.json            -files
-    
-    README.md               -files
+    package.json            -(files)
+
+    README.md               -(files)
 
