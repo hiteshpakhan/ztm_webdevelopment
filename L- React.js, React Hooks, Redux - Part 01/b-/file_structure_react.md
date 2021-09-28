@@ -14,3 +14,11 @@
 
     README.md               -(files)
 
+
+* node_modules 
+    
+    this folder will hold all the packages 
+    that we will import into our react webpage
+    we dont have to use or make changes into it manualy
+
+*     
