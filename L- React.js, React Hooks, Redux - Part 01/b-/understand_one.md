@@ -18,5 +18,13 @@ there are two types to build the components in javascript
 * if you want to write the javascript inside the component function you can write it inside the qurly brackets {} 
 
 # sigma rule of react :
-     whatever you add to the index.js file it direct combines with 
+     1> whatever you add to the index.js file it direct combines with 
      the root element of the index.html and directly access by the browser
+
+     2> whenever you want to pass more than one component through the JSX 
+     you have to wrap both component into single component 
+     for example :
+     <div>
+          <h1>first component</h1>
+          <p>second component</p>
+     </div>
