@@ -6,3 +6,7 @@ there are two types to build the components in javascript
 2> and by class 
 
 * the function App() inside the App.js is the best example of the component by function
+
+* inside the function we can write the html like javascript
+
+* that not javascript or nor the html it is the combination of both of them called JSX
