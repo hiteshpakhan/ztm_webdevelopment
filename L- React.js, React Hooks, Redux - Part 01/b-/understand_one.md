@@ -12,3 +12,5 @@ there are two types to build the components in javascript
 * that not javascript or nor the html it is called JSX
 
 * generally we cannot use the html like format inside the javascript but with react it is possible
+
+* react provide you the facility to import the files like css or the images into the other files that cannot possible with the only javascript
