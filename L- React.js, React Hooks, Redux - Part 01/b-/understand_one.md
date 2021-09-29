@@ -14,3 +14,5 @@ there are two types to build the components in javascript
 * generally we cannot use the html like format inside the javascript but with react it is possible
 
 * react provide you the facility to import the files like css or the images into the other files that cannot possible with the only javascript
+
+* if you want to write the javascript inside the component function you can write it inside the qurly brackets {} 
