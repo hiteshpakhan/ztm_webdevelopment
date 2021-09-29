@@ -1,3 +1,6 @@
 inside src folder the file App.js 
 you can actually change the javascript inside app function
- 
+inside the function you can create the component of the page 
+there are two types to build the components in javascript 
+1> by function 
+2> and by class 
