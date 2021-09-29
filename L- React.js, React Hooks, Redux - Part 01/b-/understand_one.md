@@ -10,3 +10,5 @@ there are two types to build the components in javascript
 * inside the function we can write the html like code
 
 * that not javascript or nor the html it is called JSX
+
+* generally we cannot use the html like format inside the javascript but with react it is possible
