@@ -3,9 +3,20 @@
 // and the component is nothing but the single function on the page   
 // it is not necessary but we can use the same name as our file name
 
+import './App.css'; // this css file will only get attached to this component App  //in react we dont have to write export command inside the file 
+
+//now we are importing the SubComponent of this file 
+import SubComponent from './components/SubComponent';
+
 function App(){
     // now this return is important because it will create our component
-    return <h1>this is our first step to React</h1>
+    return (
+        <div className="app-container">
+            <h1>this is our first step to React</h1>
+            <SubComponent />
+        </div>
+        )
+    // whenever you want to give the class like html remember that in JSX we use the className insted of class, where N is capital
     // it surely looks like the html but it is JSX
 }
 
