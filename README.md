@@ -20,6 +20,3 @@ INDEX :-
 8) DOM MANIPULATRION   //Document Object Model
 
 dhjbrdrgkusdhbuvseh
-
-![IMG-20211029-WA0012](https://user-images.githubusercontent.com/77678075/141097518-66884bae-3dc0-43c9-91c2-cc1c497e1c86.jpg)
-
