@@ -10,9 +10,11 @@
 
 * then open the ( command prompt / terminal )
 
-        $ npx create-react-app my-app     
+        $ npx create-react-app my-app  /or/  npm init react-app my-app   /or/   yarn create react-app my-app
         $ cd my-app
-        $ npm start
+        $ npm start    /or/   yarn start
+
+        it will show the app on  http://localhost:3000 
 
 * npx is a package runner tool
 

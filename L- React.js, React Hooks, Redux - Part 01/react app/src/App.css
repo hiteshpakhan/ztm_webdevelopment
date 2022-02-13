@@ -1,7 +1,0 @@
-/* we will import this file into the App.js file */
-/* so the App component have the seprate its own css */
-.app-container{
-    background-color: rgba(0, 89, 255, 0.294);
-    text-align: center;
-    border: 3px dotted black;
-}
