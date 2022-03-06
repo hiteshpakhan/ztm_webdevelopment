@@ -14,3 +14,4 @@ const a = script2.large_number;
 const b = 5;
 
 console.log(a + b);
+console.log("hi there")
