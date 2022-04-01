@@ -80,11 +80,11 @@ li{
 /* you can use div more than one but it shoud be of different name */
 
 h1 p{                                             
+    /* it is element space element tag now example it denote the p inside h1 it perform all task on the p tag */
     background-color: rgba(240, 127, 62, 0.3);                          
     text-align: center;               
     cursor: pointer;
 }
-/* it is element space element tag now example it denote the p inside h1 it perform all task on the p tag */
 
 p > span{
     color:rgb(112, 43, 43);
@@ -96,9 +96,9 @@ span:hover{
 }
 
 h1 + p{
+    /* it means select p that comes exactly after h1 element */
     text-align: left;
 }
-/* it means selkect p that comes exactly after h1 element */
 
 
 
