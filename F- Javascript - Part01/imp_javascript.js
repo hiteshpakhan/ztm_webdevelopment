@@ -2,10 +2,10 @@
 // there are two ways to add javascript
 // step1
 // to add javascript file there is a html tag 
-inhtml:{      <script src="script.js"></script>     }
+insidehtml:{      <script src="script.js"></script>     }
 // hear the (script.js) is our name of javascript file
 // step2
-inhtml:{      <script>alert("hi there!")</script>    }
+insidehtml:{      <script>alert("hi there!")</script>    }
 // you can directly add javascript content in between script tag
 // imp tip:
 // use javascript linking tags bottom of the body tag in html for better performance
