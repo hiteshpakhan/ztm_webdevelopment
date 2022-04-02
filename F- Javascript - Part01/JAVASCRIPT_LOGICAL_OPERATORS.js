@@ -7,7 +7,7 @@
 // !
 
 // OR ||
-name="hitesh";
+name = "hitesh";
 if (name === "billy" || name === "hitesh"){
     alert("hi billy or hitesh");
 }
@@ -17,8 +17,8 @@ if (name === "billy" || name === "hitesh"){
 
 
 // && AND
-var firstname="hitesh";
-var lastname="pakhan";
+var firstname = "hitesh";
+var lastname = "pakhan";
 if (firstname === "hitesh" && lastname === "pakhan"){
     alert("hi hitesh pakhan");
 }
@@ -29,7 +29,7 @@ if (firstname === "hitesh" && lastname === "pakhan"){
 
 
 // NOT !
-var language="javascript";
+var language = "javascript";
 if( ! (language === "jagfgkjhgbv") ) {
     alert("your not javascript");
 }
