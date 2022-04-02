@@ -116,12 +116,3 @@ console.log("the return value of the program is "+ val);
 
 // IMP
 // function inside an object called the method of that function
-
-
-
-
-
-
-
-
-

@@ -99,7 +99,4 @@ alert(mul3(5, 4));
 // 1(parameters):-
 // and if you see the upper example you will see that we first assign the empty variable like terms to the function that are (a, b) this is called as parameters
 // 2(argument):-
-// and if you see when we called the function we give the value (5, 4) these are called as a argument   
-
-
-
+// and if you see when we called the function we give the value (5, 4) these are called as a argument

@@ -92,19 +92,3 @@ array2[1][1][0];
 
 // different between arrayes and object in javascript
 // everyt array is made of the index and values that the index start from the 0 and values starting to assign from that 0 but unlike object there is a system of properties and values where each value has there unique properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
