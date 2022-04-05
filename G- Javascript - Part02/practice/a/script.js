@@ -29,14 +29,3 @@ function sign_in(user, pass){
     }
 };
 sign_in(get_name, get_pass);
-
-
-
-
-
-
-
-
-
-
-
