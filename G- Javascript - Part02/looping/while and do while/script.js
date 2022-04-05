@@ -64,10 +64,3 @@ do{
 
 // the specility of the do while loop is that it will run the code atleast once even the condition is not match or correct
 // besides the while loop only execute when the condition is full fill
-
-
-
-
-
-
-
