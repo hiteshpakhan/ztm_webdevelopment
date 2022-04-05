@@ -45,7 +45,3 @@ function a(){
 color1.addEventListener("input", a);
 
 color2.addEventListener("input", a);
-
-
-
-

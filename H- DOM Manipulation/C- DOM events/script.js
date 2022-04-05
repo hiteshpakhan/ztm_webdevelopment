@@ -12,12 +12,3 @@ demo.addEventListener("click", function(){    //here whenever the click happen t
 // mouseenter : it react when you hover the mouse to it
 // mouseleave : it react as soon as you leave the mouse from there
 // there are many of the event listener    https://www.w3schools.com/jsref/dom_obj_event.asp
-
-
-
-
-
-
-
-
-

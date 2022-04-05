@@ -45,12 +45,3 @@ event.keyCode
 
         remember that the middle 'C' in the keyCode is capital
 
-
-        
-
-
-
-
-
-
-

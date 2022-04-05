@@ -16,8 +16,3 @@ document.getElementsByTagName("li")[0].style.color="red";   //it will set the co
 var countitem = document.getElementsByTagName("li").length;    //it will count the no of length of li element
 document.querySelector("p").innerHTML = "there are "+countitem+" items in the li tag";   
 // -----
-
-
-
-
-

@@ -49,18 +49,3 @@
 
     
    in here we can see that the window is actualy a object contain the propertys like the alert, document, etc.
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
