@@ -39,10 +39,3 @@ function login(a, b){
 
 
 login(user, pass);
-
-
-
-
-
-
-
