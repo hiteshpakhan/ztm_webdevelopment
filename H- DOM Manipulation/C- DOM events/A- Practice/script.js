@@ -1,3 +1,9 @@
+// .innerHTML
+// .click()
+// .style
+// .color
+// .length
+
 var inside = document.querySelector("h1").innerHTML;
 
 if(inside === "Hello Everyone"){

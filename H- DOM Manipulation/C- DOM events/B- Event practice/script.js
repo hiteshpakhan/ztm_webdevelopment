@@ -1,6 +1,13 @@
+// .value 
+// .length
+// .createElement("")
+// .appendChild()
+// .createTextNode
+// .keyCode
+
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
-var ul = document.querySelector("ul");   
+var ul = document.querySelector("ul");
 
 button.addEventListener("click", function(){   //this function will exeacute if you click the button
     if(input.value.length > 0){   // this will check the input text length
