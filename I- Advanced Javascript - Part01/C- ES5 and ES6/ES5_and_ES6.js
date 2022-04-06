@@ -249,7 +249,7 @@
         return a+b;
     }
 
-    const add2 = (a, b) => a + b;   
+    const add2 = (a, b) => a + b;
 
     add(4, 2); //it will give the value of first function
     add2(4, 2); //it will give the value of the second function
@@ -257,34 +257,3 @@
     // output:-
     // 6              //first
     // 6              //second
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
