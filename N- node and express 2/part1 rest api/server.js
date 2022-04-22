@@ -1,25 +1,38 @@
-const express = require("express");
+// bodyParser.urlencoded
+// bodyParser.json
+// req.query
+// req.body
+// req.header
+// req.params
 
+const express = require("express");
 const bodyParser = require("body-parser");
+
+
 
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: false})); 
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
-     res.send("we are on th elocalhost:3000");
+app.get("/:id", (req, res) => {
+    // req.query
+    // console.log("===",req.query); //when interacting with browser browser send info by the url query that we can grab by the .query method 
+    
+    // req.body
+    // we have already seen the body by the body-parser
+    
+    // req.header
+    // console.log(req.header);
+
+    // req.params 
+    console.log(req.params);    //by this we can get the parameters in the url
+
+    // res.send("we are on th elocalhost:3000");
+
+    // we can also send the response by the status code
+    res.status(404).send("not found message");
 });
 
-app.get("/profile", (req, res) => {
-    res.send("we are in the get profile request by using res.send");
-});
-
-
-app.post("/profile", (req, res) => {
-    console.log("hi there this is the post profile request");
-    console.log(req.body)
-    res.send("success");
-});
 
 app.listen(3000);
