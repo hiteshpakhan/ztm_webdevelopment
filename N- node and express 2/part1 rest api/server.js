@@ -7,6 +7,8 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
+// we always need the bodyparser to use the request.body 
+// bodyparser used with the middleware .use
 
 
 
