@@ -44,3 +44,27 @@ you can update the table values by UPDATE command but you need to specify which 
 
         OR example:
         UPDATE Table_Name SET Column_Name = "___Value___" WHERE Column_Name = "___value___" OR Column_Name = "___value2___";
+
+## LIKE
+LIKE allows us to add the condition
+
+        SELECT * FROM Table_Name WHERE Column_Name LIKE "A%";   /this condition means anything comes after A
+
+        SELECT * FROM Table_Name ORDER BY Column_Name DESC;     /get everything sorted in descinding order 
+
+        SELECT * FROM Table_Name ORDER BY Column_Name ASC;      /asending order
+
+## AVG()
+it gives you the average of the column
+
+        SELECT AVG(Column_Name) FROM Table_Name;
+
+## SUM()
+IT GIVES YOU THE TOTAL OF ALL THE DATA INSIDE THE COLUMN
+
+        SELECT SUM(Column_Name) FROM Table_Name;
+
+## COUNT()
+IT WILL COUNT HOW MANY ENTRIES OF DATA YOU HAVE
+
+        SELECT COUNT(Column_Name) FROM Table_Name;

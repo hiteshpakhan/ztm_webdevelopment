@@ -33,5 +33,4 @@ Example:
 
 
 
-remember teh password of your postgres is test
-
+remember the password of your postgres is test
