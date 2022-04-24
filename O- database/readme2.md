@@ -5,9 +5,16 @@
         CREATE TABLE Table_Name (colum_name data_type, colum_name datatype,.,.,.,.....);
 
         here the postgres datatypes are 
-        string datatypes: char varchar text etc....
-        numeric datatype: integer bigint smallint int bool money etc....
-        date/ time datatype: date timestamp time etc....
+        string datatypes:    char, varchar(size), text, etc....
+        numeric datatype:    serial, integer, bigint, smallint, int, bool, money, etc....
+        date/ time datatype: date, timestamp, time, etc....
+
+## UNIQUE
+
+## PRIMARY KEY
+
+## NOT NULL
+it means that you can not place this column empty
 
 ## \d 
 list of all relations/tables of the postgres
