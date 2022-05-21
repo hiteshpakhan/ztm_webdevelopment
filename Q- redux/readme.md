@@ -48,3 +48,4 @@
             }
         }
 
+now that we have created the action and reducer but now we have to connect them together
