@@ -5,6 +5,8 @@ there are two types to build the components in javascript
 1> by function     (most use is the by function component)
 2> and by class 
 
+* we have the command inside the index.js (import ReactDOM from "react-dom") that will link the react to the DOM
+
 * the function App() inside the App.js is the best example of the component by function
 
 * inside the function we can write the html like code
@@ -28,3 +30,4 @@ there are two types to build the components in javascript
           <h1>first component</h1>
           <p>second component</p>
      </div>
+
