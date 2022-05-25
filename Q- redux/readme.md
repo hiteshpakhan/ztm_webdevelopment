@@ -48,4 +48,20 @@
             }
         }
 
-now that we have created the action and reducer but now we have to connect them together
+* now that we have created the redux part but we have to connect it to the react 
+
+* for this we have installed the package react-redux that gives us the two api 1.Provider and 2.connect
+
+* for this you have to import this into the index.js
+
+        import {Provider, connect} from "react-redux";
+
+* we also have the store which is th estore of all truth , and you can create the store by following inside the index.js
+
+        import { createStore } from "redux";
+
+        const store = createStore( rootReducer )        //the rootReducer which is the reducer of our app which contains all the reducers of our app for example the searchRobots reducer
+
+        //but here we only have one reducer so we can directly put the reducer at the place of rootReducer
+
+        const store = createStore( searchRobots )
