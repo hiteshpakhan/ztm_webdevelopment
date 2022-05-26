@@ -94,7 +94,7 @@
         //now go to the top and you have to define this parameters
         const mapStateToProps = state => {
                 return{
-                        searchField: state.searchRobots.searchField
+                        searchField: state.searchField
                 }
         }
 
@@ -113,3 +113,5 @@
         const { searchField, onSearchChange } = this.props;
 
 * and remove the this. inside the jsx <searchBox searchChange={this.onSearchChange} /> and make it <searchBox searchChange={onSearchChange} />
+
+* capital the F in all the searchField
