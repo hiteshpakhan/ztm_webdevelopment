@@ -78,5 +78,12 @@
         ...
 
 * and to finished this connection we use the connect that we imported from the react-redux
-* inside the index.js
 
+* inside the App.js
+
+        import { connect } from "react-redux";
+        import { setSearchField } from "../actions";
+
+        //to use the connect you have to 
+
+        export default connect()(App);  //connect is a higher order function {higher order function always returns the another function}
