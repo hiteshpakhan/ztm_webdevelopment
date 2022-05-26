@@ -26,7 +26,7 @@
 
 * here we will create the constance.js file to store the name of the actions and then export them
 
-        export const CHANGE_SEARCHFIELD = "CHANGE_SEARCHFIELD";
+        export const CHANGE_SEARCH_FIELD = "CHANGE_SEARCHFIELD";
 
 * now we will create the reducer which is the big function that read the action and split out the state
 
@@ -41,8 +41,8 @@
         export const searchRobots = (state = initialState, action={}) => {          // this is the reducer has the input of the state and action
             //now if we recived the action that is related to searching the robots then will act upon the state
             switch(action.type) {
-                case: CHANGE_SEARCH_FIELD:
-                    return Object.assign({}, state, searchField: action.payload);
+                case CHANGE_SEARCH_FIELD:
+                    return Object.assign({}, state, { searchField: action.payload });
                 default:
                     return state;
             }
@@ -64,4 +64,15 @@
 
         //but here we only have one reducer so we can directly put the reducer at the place of rootReducer
 
-        const store = createStore( searchRobots )
+        import { searchRobots } from "./reducers";
+        const store = createStore( searchRobots )       // now this store can be accessed and pass to the <App />
+
+        //by this we can remove all the state from the react app and keep it into the store and pass the store as a props
+
+* to pass the store to the app we have imported the provider 
+
+        //inside index.js
+        <provider store={store}> //the provider component will automaticly pass down the store to all the component beneth it
+            <App />
+        </provider>,
+        ...
