@@ -103,3 +103,13 @@
                         onSearchChange: (event) => dispatch(setSearchField(event.target.value))
                 }
         }
+
+* now you can remove the onSearchChange function inside the App.js
+* you can remove the searchfield from this.state
+* inside the render() you have to remove the searchField from   const {robots, searchField} = this.state;
+
+* and add the following inside the render()
+
+        const { searchField, onSearchChange } = this.props;
+
+* and remove the this. inside the jsx <searchBox searchChange={this.onSearchChange} /> and make it <searchBox searchChange={onSearchChange} />
