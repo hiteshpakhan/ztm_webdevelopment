@@ -87,3 +87,6 @@
         //to use the connect you have to 
 
         export default connect()(App);  //connect is a higher order function {higher order function always returns the another function}
+        //now this accept 2 parameters that you can add
+
+        export default connect(mapStateToProps, mapDispatchToProps)(app);
