@@ -90,3 +90,16 @@
         //now this accept 2 parameters that you can add
 
         export default connect(mapStateToProps, mapDispatchToProps)(app);
+
+        //now go to the top and you have to define this parameters
+        const mapStateToProps = state => {
+                return{
+                        searchField: state.searchRobots.searchField
+                }
+        }
+
+        const mapDispatchToProps = (dispatch) => {
+                return{
+                        onSearchChange: (event) => dispatch(setSearchField(event.target.value))
+                }
+        }
