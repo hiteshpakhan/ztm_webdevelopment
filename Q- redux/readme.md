@@ -26,7 +26,7 @@
 
 * here we will create the constance.js file to store the name of the actions and then export them
 
-        export const CHANGE_SEARCH_FIELD = "CHANGE_SEARCHFIELD";
+        export const CHANGE_SEARCH_FIELD = "CHANGE_SEARCH_FIELD";
 
 * now we will create the reducer which is the big function that read the action and split out the state
 
@@ -76,3 +76,7 @@
             <App />
         </provider>,
         ...
+
+* and to finished this connection we use the connect that we imported from the react-redux
+* inside the index.js
+
