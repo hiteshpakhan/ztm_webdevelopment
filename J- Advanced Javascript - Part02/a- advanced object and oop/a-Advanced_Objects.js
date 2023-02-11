@@ -35,10 +35,12 @@ object3.value;        //10
     const o = {
         a: function(){
             console.log(this);
-        }
+        },
+        b: ["h"]
     };
     o.a();
-    // op:- {a: ƒ}       //now as you can see as we are in the second object it shows the loaction of the second object that we are in 
+    // op:- {b: Array(1), a: ƒ}       //now as you can see as we are in the second object it shows the loaction of the second object that we are in 
+    // you shoud understand that the this will go to the bigger location of the location that it currently in and will give all the locations including its own
 
 // --------------------------------------------------------------------
 
