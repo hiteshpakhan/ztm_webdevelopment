@@ -1,0 +1,12 @@
+
+:host{          /* this :host is the attribute will represent the hole component if you want to assign value to the hole component you have to use the :host */
+    font-size: 24px;
+}
+
+img{    /* this value will be assign to img tag it is as simple as any normal css */
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(88, 92, 195);
+    /* width: 10px;
+    height: 10px; */
+}

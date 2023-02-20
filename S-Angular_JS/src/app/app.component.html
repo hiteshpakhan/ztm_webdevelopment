@@ -1,0 +1,84 @@
+<ng-template [ngIf]="blueClass">   <!-- just like attribute directive we will wrap ngIf inside [] for property binding other we wont be able to use an expression as a value -->
+  <!-- and wewill bind this directive to the blueClass property that we have created before that holds a boolean value -->
+  <!-- we will use the same condition if the button is blue the comtent message shoud appere -->
+  <!-- in the button we are toggling the the value of the blueclass so we dont have to use it again -->
+  <p>button is blue.</p>
+</ng-template>    <!-- angular will not display the content of this element inside the browser it will detect that we have the ng-template element and emidiately hide it -->
+
+<p *ngIf="blueClass" >button is blue. simple way for strutral directive</p>
+<!-- here we have remove the ng-template element -->
+<!-- then we will replace the [] with the * before the directive name -->
+<!-- the * is used to perform 2 actions, 
+  first it will automatically wrap the element inside the <ng-template> element,
+    secondly the value will be interprited as an expression so that we dont have to wrap the directive inside []  -->
+    <!-- its a short hand way to write the structral directive -->
+
+
+
+<button (click)="blueClass = !blueClass" 
+  [ngClass]="{ blue : blueClass }"
+  [ngStyle]="{ 'font-size.px' : fontSizeVariable }"
+>    <!-- directive can be added like attributes -->
+  <!-- dynamically binding class to an element requires property binding so will put the ngClass inside []  -->
+  <!-- ngClass can have many types the most common type of format is an object, object syntax allows us to add multiple class dynamically -->
+  <!-- property : value --><!-- the property name will be the name of the class that you wanna toggle and the value will the condition it will deside to toggle-->
+  
+  <!-- and here we will add the ngStyle directive with property binding means inside [] -->
+  <!-- here in the ngStyle inside the object we will give the css property inside quots and assing the value we want to give -->
+  <!-- here we will add the mesuarement to our css property name with the help of .  -->
+  Change
+</button>
+
+<hr>
+
+
+<input (keyup)="changeImage($event)" [value]="imgUrl">  <!-- the value of the event will an expression we dont have to put it inside the {{}} -->
+<!-- here we are going to listen to an event of key up -->
+<!-- we have to wrap the event attribute with () -->
+<!-- normally event are start with the on_____ like onKeyUp but in angular we dont have to do it -->
+<!-- here we have used the method changeImage with the $event object pass in -->
+<!-- angular will provide us with the with the event object we can pass it to the class -->
+
+<!-- <app-post [postImg]="imgUrl" ></app-post> -->  <!-- here we have use alias feature and give the new name img to the data so we will use img insted of postImg -->
+<app-post *ngFor="let image of images; let i = index"
+[img]="image" 
+(imgSelected)="logImg($event)" >  <!-- up until now we have given the value to the directives in the form of object or properties -->
+<!-- syntax for the ngFor is : let __ for __ , here let help to create a variable and of means it will ittrate through the thing you provided -->
+<!-- here we have remove the [img]="imgUrl" and past the  -->
+    <p> {{ i }} we are inside the app-post component tag inside of p tag and we will render it by the help of ng-content tag in our post html file</p>
+</app-post>
+
+<!-- <img [src]="imgUrl" >    -->
+<!-- square brackets to any attribute means this is property binding  -->
+<!-- and the value of the [] attribute is treted as an expression we do not have to give it {{}} -->
+
+<p> hi {{ name }} and also you can use various property {{ name.toUpperCase() }} </p>
+
+<!-- for using the pipe titlecase -->
+<p> this value is get using pipe titlecase : {{ name2 | titlecase }} </p>      <!-- here we can apply the pipe by adding the pipe character | followd by the name of the pipe -->
+
+<h1> {{ sampleName() }} </h1>
+<!-- it will show the name value in upper case -->
+
+<p> {{ currentDate }} </p>      <!-- here it will show the current time like: Sun Feb 19 2023 15:34:21 GMT+0530 (India Standard Time) -->
+
+<p> {{ currentDate | date }} </p>      <!-- here it will show the current time like: Feb 19, 2023 -->
+
+<p> {{ currentDate | date: "d MMMM" }} </p>      <!-- here you can pass the values and it will show the current time like: 19 February -->
+
+<p> {{ cost | currency }} </p>      <!-- here it will show the dollar sign before the number: $2,000.00 -->
+
+<p> {{ cost | currency:"INR" }} </p>      <!-- here it will show the RUPEES sign before the number: ₹2,000.00 -->
+
+<p> {{ temperature | number:"1.2-5" }} </p>     <!-- here it will give us the output: 24.00 -->
+
+<p> {{ temperature | number:"1.0-0" }} </p>     <!-- here it will give us the output: 24 -->
+
+<pre> {{ pizza | json }} </pre>         <!-- this will ggive us output: 
+    {
+    "toppings": [
+      "pepperoni",
+      "bacon"
+    ],
+    "size": "large"
+  }  -->

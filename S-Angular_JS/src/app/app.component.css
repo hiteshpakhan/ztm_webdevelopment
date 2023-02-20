@@ -1,0 +1,20 @@
+
+
+input {
+    display: block;
+    margin: 10 0;
+}
+
+p {
+    color: rgb(0, 26, 255);
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+

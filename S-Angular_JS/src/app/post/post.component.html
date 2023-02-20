@@ -1,0 +1,5 @@
+<img [src]="postImg" (click)="imgSelected.emit(postImg)" >  <!-- here we are going to listen for the click event remember to put event inside () -->
+<!-- now we will call the imgSelected.emit(), this .emit() is a method of EventEmmiter object by calling this we are triggering event -->
+<!-- here we are send data through the event listner to the parent commponent -->
+
+<ng-content></ng-content>   <!-- this will catch anything you pass between its custom component tag -->
