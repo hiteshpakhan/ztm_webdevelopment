@@ -118,6 +118,11 @@ Math.pow(-7, 0.5); //it means -7 to the index of 0.5
 // output:-
 NaN
 
+// also there is another way to give power of to any number for example
+console.log(10 ** 5)  //this also means 10 to the power of 5
+// output
+100000
+
 
 
 
