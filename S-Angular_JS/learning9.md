@@ -191,3 +191,8 @@ after this we will define it inside class
                         console.log("ngOnDestroy has been call")  //unfortunatly we havent learn how to destroy function yet so we will use this in future
                 }    
         }
+
+
+
+
+read it 
